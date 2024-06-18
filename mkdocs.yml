@@ -1,3 +1,28 @@
 site_name: My Docs
+site_url: https://127.0.0.1
 theme:
   name: material
+  palette:
+    primary: green
+
+nav:
+  - Introduction: index.md
+  - Installation:
+    - installation/bash.md
+    - installation/c#.md
+    - installation/c++.md
+    - installation/c.md
+    - installation/clojure.md
+    - installation/dart.md
+    - installation/elixir.md
+    - installation/go.md
+    - installation/haskell.md
+    - installation/java.md
+    - installation/javascript.md
+    - installation/kotlin.md
+    - installation/lua.md
+    - installation/python.md
+    - installation/ruby.md
+    - installation/rust.md
+    - installation/vala.md
+    - installation/zig.md
