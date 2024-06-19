@@ -1,9 +1,20 @@
 # Learning Programming Languages
 
-Para quando já se tem na cabeça o que se deve ser feito porém não conhece a linguagem o suficiente para saber como é feito nela.
+O problema é que eu já sei como fazer X na linguagem Y, mas queria fazer o mesmo na linguagem Z.  
 
-## Alternatives
-- Site: [https://learnxinyminutes.com/](https://learnxinyminutes.com/)
-    - Repo: [https://github.com/adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)
-- Site: [https://build-your-own-x.vercel.app/](https://build-your-own-x.vercel.app/)
-    - Repo: [https://github.com/kjj6198/build-your-own-x](https://github.com/kjj6198/build-your-own-x)
+Dependendo da linguagem Z, eu talvez tenha que abstrair ou concretizar conceitos de computação. Por exemplo:  
+
+- Controle de memória
+    - Free? Garbage collector? Reference counted? Borrowing?
+- Tipagem
+    - Forçada? Opcional? Inexistente?
+- Stack & Heap
+    - Importa? Fora do seu controle?
+
+No final a idéia é a mesma do [Learn X in Y minutes](https://learnxinyminutes.com/), reunir o conhecimento de diversas linguagens em um local.  
+
+## Notes
+
+Caso não esteja citando o sistema operacional, assuma que é **Ubuntu**.  
+Caso não esteja citando o shell, assuma que é **bash**.  
+Certas palavras podem vir em inglês por serem mais familiares para **mim**.  

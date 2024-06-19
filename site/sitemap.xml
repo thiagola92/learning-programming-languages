@@ -5,4 +5,34 @@
          <lastmod>2024-06-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://127.0.0.1/compiling/go/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/compiling/python/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/compiling/rust/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/installing/go/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/installing/python/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/installing/rust/</loc>
+         <lastmod>2024-06-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

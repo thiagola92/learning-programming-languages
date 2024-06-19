@@ -1,28 +1,53 @@
-site_name: My Docs
+site_name: Learning Programming Languages
 site_url: https://127.0.0.1
 theme:
   name: material
   palette:
     primary: green
+  features:
+    - content.tabs.link
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Introduction: index.md
-  - Installation:
-    - installation/bash.md
-    - installation/c#.md
-    - installation/c++.md
-    - installation/c.md
-    - installation/clojure.md
-    - installation/dart.md
-    - installation/elixir.md
-    - installation/go.md
-    - installation/haskell.md
-    - installation/java.md
-    - installation/javascript.md
-    - installation/kotlin.md
-    - installation/lua.md
-    - installation/python.md
-    - installation/ruby.md
-    - installation/rust.md
-    - installation/vala.md
-    - installation/zig.md
+  - Installing:
+    - installing/go.md
+    - installing/python.md
+    - installing/rust.md
+  - Tooling:
+    - tooling/index.md
+    - Compiling:
+      - tooling/compiling/go.md
+      - tooling/compiling/python.md
+      - tooling/compiling/rust.md
+    - Formatting:
+      - tooling/formatting/go.md
+      - tooling/formatting/python.md
+      - tooling/formatting/rust.md
+    - Debugging:
+      - tooling/debugging/go.md
+      - tooling/debugging/python.md
+      - tooling/debugging/rust.md
+    - Package Manager:
+      - tooling/package_manager/go.md
+      - tooling/package_manager/python.md
+      - tooling/package_manager/rust.md

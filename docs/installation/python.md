@@ -1,2 +1,0 @@
-# Python
-Incluso em Linux
