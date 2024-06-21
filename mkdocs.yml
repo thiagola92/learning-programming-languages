@@ -6,6 +6,7 @@ theme:
     primary: green
   features:
     - content.tabs.link
+    - content.tooltips
 
 markdown_extensions:
   - abbr

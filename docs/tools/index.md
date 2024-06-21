@@ -22,6 +22,11 @@ Se a linguagem não possuir um formatador oficial, não espere instruções sofr
 ## Debug
 Seção que fala sobre o debugger da linguagem.  
 
+Nem todas as linguagens possuem um debugger próprio, algumas recomendam utilizar debuggers já existentes ou criados pela comunidade. Por exemplo, é possível usar [GDB](https://en.wikipedia.org/wiki/GNU_Debugger) e [LLDB](https://en.wikipedia.org/wiki/LLDB_(debugger)) com a linguagem Rust.  
+
+*[GDB]: GNU Debugger
+*[LLDB]: Low-Level Debugger
+
 ## Package
 Seção que fala como criar um pacote/biblioteca/módulo na linguagem.  
 
