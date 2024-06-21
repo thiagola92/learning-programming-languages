@@ -48,11 +48,17 @@ nav:
       - tools/debug/go.md
       - tools/debug/python.md
       - tools/debug/rust.md
-    - Package:
-      - tools/package/go.md
-      - tools/package/python.md
-      - tools/package/rust.md
     - Package Manager:
       - tools/package_manager/go.md
       - tools/package_manager/python.md
       - tools/package_manager/rust.md
+  - Project Management:
+    - project_management/index.md
+    - Layout:
+      - project_management/layout/go.md
+      - project_management/layout/python.md
+      - project_management/layout/rust.md
+    - Package, Library, Module:
+      - project_management/package/go.md
+      - project_management/package/python.md
+      - project_management/package/rust.md

@@ -27,8 +27,5 @@ Nem todas as linguagens possuem um debugger próprio, algumas recomendam utiliza
 *[GDB]: GNU Debugger
 *[LLDB]: Low-Level Debugger
 
-## Package
-Seção que fala como criar um pacote/biblioteca/módulo na linguagem.  
-
 ## Package Manager
 Seção que fala sobre o gerenciador de pacotes da linguagem.  
