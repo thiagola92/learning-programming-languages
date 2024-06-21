@@ -58,4 +58,4 @@ Parecido com C, onde é necessário passar todos os arquivos a serem compilados.
 
 Diferente de C, todos os arquivos a serem compilados precisam estar no mesmo diretório.  
 
-Para utilizar subdiretórios, trate eles como [pacotes](/tools/package/go.md).  
+Para utilizar subdiretórios, trate eles como [pacotes](/project_management/package/go.md).  
