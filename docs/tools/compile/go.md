@@ -36,7 +36,7 @@
     
     Nenhum binário é gerado.  
 
-## Multiple Files (1)
+## Multiple Files
 
 Parecido com C, onde é necessário passar os arquivos a serem compilados.  
 
@@ -58,7 +58,7 @@ Parecido com C, onde é necessário passar os arquivos a serem compilados.
 
 Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no mesmo diretório.  
 
-## Multiple Files (2)
+### Tip
 
 A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu projeto como um módulo então poderá importar código dos subdiretórios.  
 
@@ -72,15 +72,7 @@ A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu pr
     
     ```go title="main.go"
     func main() {
-        FooBar()
-    }
-    ```
-    
-    ```go title="file0.go"
-    import "fmt"
-    
-    func FooBar() {
-        fmt.Println("Hello World")
+        FooBar()    // Function from file0.go
     }
     ```
     
@@ -110,15 +102,7 @@ A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu pr
     import "my_module/subpackage0"
     
     func main() {
-        subpackage0.FooBar()
-    }
-    ```
-    
-    ```go title="file0.go"
-    import "fmt"
-    
-    func FooBar() {
-        fmt.Println("Hello World")
+        subpackage0.FooBar()    // Function from file0.go
     }
     ```
     
