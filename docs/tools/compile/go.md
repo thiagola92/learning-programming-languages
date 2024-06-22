@@ -58,7 +58,7 @@ Parecido com C, onde é necessário passar os arquivos a serem compilados.
 
 Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no mesmo diretório.  
 
-### Tip
+### Subdirectories
 
 A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu projeto como um módulo então poderá importar código dos subdiretórios.  
 

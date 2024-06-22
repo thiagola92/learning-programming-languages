@@ -1,8 +1,12 @@
 # Go
 
-??? note "Imposed"
+??? info "Imposed"
 
-    A linguagem obriga a seguir o layout.
+    A linguagem apenas aceita importar código de arquivos que seguiram a regra da linguagem. Por exemplo:  
+    
+    > "Apenas arquivos no mesmo diretório"  
+    > "Apenas arquivos em subdiretórios"  
+    > "Apenas em diretórios que tenham o arquivo `.package"      
 
 Todos os arquivos relacionados ao mesmo pacote devem ficar na mesma pasta e o pacote principal deve ficar na raiz do projeto.  
 
@@ -23,7 +27,7 @@ Desta forma outros podem importar seu módulo com o URL do repositório. Por exe
 import "https://www.github.com/username/repository"
 ```
 
-## Sub-package
+## Subpackages
 
 É normal dividir um projeto grande em subdiretórios, nesse caso cada subdiretório é considerado um subpacote.  
 

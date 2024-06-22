@@ -1,8 +1,15 @@
 # Python
 
-??? note "Not Imposed"
+??? info "Not Imposed"
 
-    A linguagem não obriga a seguir o layout.
+    A linguagem deixa importar código de arquivos sem ligar para a localização deles. Por exemplo:
+    
+    ```python
+    import code
+    import dir/code
+    import dir/dir/code
+    import ../code
+    ```
 
 ## src layout
 
