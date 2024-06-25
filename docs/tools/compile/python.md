@@ -4,6 +4,8 @@
     
     Uma linguagem interpretada é responsável por ler e executar o código ao mesmo tempo.  
 
+## Execute
+
 === "Execute"
     
     Executa o código:  

@@ -1,5 +1,11 @@
 # Python
 
+??? info "Official"
+
+    Este debugger é mantido pelos criadores oficiais da linguagem.
+
+## Debug
+
 Igual a outras linguagens, é possível inciar o debugger pela linha de comando.  
 
 ```python

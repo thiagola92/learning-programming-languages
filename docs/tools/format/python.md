@@ -1,8 +1,10 @@
 # Python
 
-Python não possui formatador oficial.  
+??? info "Third Party"
 
-## Alternatives
+    Este formatador não é mantido pelos criadores oficiais da linguagem.
+
+A linguagem possui diversas alternativas de formatadores:  
 
 - [autopep8](https://pypi.org/project/autopep8/)
 - [Black](https://black.readthedocs.io/en/stable/)

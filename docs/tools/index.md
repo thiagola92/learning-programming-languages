@@ -1,7 +1,7 @@
 # Index
 
 ## Compile
-Seção que fala como executar o código da linguagem.  
+Seção que fala sobre compilar e executar o código da linguagem.  
 
 Linguagens compiladas e interpretadas estão agrupadas nesta mesma seção. Exemplos:  
 
@@ -28,4 +28,4 @@ Nem todas as linguagens possuem um debugger próprio, algumas recomendam utiliza
 *[LLDB]: Low-Level Debugger
 
 ## Package Manager
-Seção que fala sobre o gerenciador de pacotes da linguagem.  
+Seção que fala sobre o gerenciador de dependências da linguagem (dependências podem ser biblitoecas/pacotes/módulos).  

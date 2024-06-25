@@ -18,6 +18,8 @@
         .\main
         ```
 
+## Compile
+
 === "Compile"
     
     Compila para um binário `main`:  
@@ -36,7 +38,7 @@
     
     Nenhum binário é gerado.  
 
-## Multiple Files
+## Compile when you have multiples files
 
 Parecido com C, onde é necessário passar os arquivos a serem compilados.  
 
@@ -58,62 +60,46 @@ Parecido com C, onde é necessário passar os arquivos a serem compilados.
 
 Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no mesmo diretório.  
 
-### Subdirectories
+``` title="Project Layout"
+.
+├── main.go
+└── file0.go
+└── file1.go
+└── file2.go
+```
+
+## Compile when you have files in subdirectories
+
+!!! warning
+    
+    Está parte conta que você tenha alguns conhecimentos de assuntos futuros.
 
 A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu projeto como um módulo então poderá importar código dos subdiretórios.  
 
-=== "Before"
-
-    ``` title="Project Layout"
-    .
-    ├── main.go
+``` title="Project Layout"
+.
+├── go.mod
+├── main.go
+└── subpackage0/
     └── file0.go
-    ```
-    
-    ```go title="main.go"
-    func main() {
-        FooBar()    // Function from file0.go
-    }
-    ```
-    
-    === "Compile"
-        
-        ```
-        go build main.go file0.go
-        ```
-    
-    === "Compile & Execute"
-        
-        ```
-        go run main.go file0.go
-        ```
+```
 
-=== "After"
+```go title="main.go"
+import "my_module/subpackage0"
 
-    ``` title="Project Layout"
-    .
-    ├── go.mod
-    ├── main.go
-    └── subpackage0/
-        └── file0.go
+func main() {
+    subpackage0.FooBar()    // Function from file0.go
+}
+```
+
+=== "Compile"
+    
     ```
-    
-    ```go title="main.go"
-    import "my_module/subpackage0"
-    
-    func main() {
-        subpackage0.FooBar()    // Function from file0.go
-    }
+    go build main.go
     ```
+
+=== "Compile & Execute"
     
-    === "Compile"
-        
-        ```
-        go build main.go
-        ```
-    
-    === "Compile & Execute"
-        
-        ```
-        go run main.go
-        ```
+    ```
+    go run main.go
+    ```

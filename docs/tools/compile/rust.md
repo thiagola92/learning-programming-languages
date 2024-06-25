@@ -18,6 +18,8 @@
         .\main
         ```
 
+## Compile
+
 === "Compile"
     
     Compila para um binário `main`:  
@@ -26,9 +28,9 @@
     rustc main.rs
     ```
 
-## Package Manager
+## Compile with package manager
 
-O package manager da linguagem fornece atalhos para compilar e executar, porém isto envolve certas configurações do package manager.  
+O package manager da linguagem fornece atalhos para compilar e executar, porém isto envolve o diretório estar configurado para o package manager.  
 
 === "Compile"
     
