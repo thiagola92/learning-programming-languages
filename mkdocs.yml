@@ -32,6 +32,7 @@ nav:
   - Introduction: index.md
   - Install:
     - install/go.md
+    - install/javascript.md
     - install/python.md
     - install/rust.md
   - Tools:
@@ -49,6 +50,10 @@ nav:
       - tools/debug/python.md
       - tools/debug/rust.md
     - Package Manager:
+      - tools/package_manager/go.md
+      - tools/package_manager/python.md
+      - tools/package_manager/rust.md
+    - Version Manager:
       - tools/package_manager/go.md
       - tools/package_manager/python.md
       - tools/package_manager/rust.md
