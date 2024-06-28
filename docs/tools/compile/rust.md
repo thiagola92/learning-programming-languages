@@ -1,21 +1,5 @@
 # Rust
 
-??? info "Executable"
-
-    Essa linguagem compila para um executável, ou seja, pode ser necessário executa-lo manualmente depois da compilação:  
-    
-    === "Linux / Mac"
-        
-        ```
-        ./main
-        ```
-    
-    === "Windows"
-        
-        ```
-        .\main
-        ```
-
 ## Compile
 
 === "Compile"
