@@ -1,10 +1,8 @@
 # Go
 
-??? info "Compiled Language"
+??? info "Executable"
 
-    Uma linguagem compilada é responsável por ler o código e gerar um binário.  
-    
-    Se a linguagem criar um binário chamado `main`, ele pode ser executado com:  
+    Essa linguagem compila para um executável, ou seja, pode ser necessário executa-lo manualmente depois da compilação:  
     
     === "Linux / Mac"
         
@@ -22,7 +20,7 @@
 
 === "Compile"
     
-    Compila para um binário `main`:  
+    Compila para um executável `main`:  
     
     ```
     go build main.go
@@ -44,7 +42,7 @@ Parecido com C, onde é necessário passar os arquivos a serem compilados.
 
 === "Compile"
     
-    Compila para um binário `main`:  
+    Compila para um executável `main`:  
     
     ```
     go build main.go file0.go file1.go file2.go
@@ -94,11 +92,15 @@ func main() {
 
 === "Compile"
     
+    Compila para um executável `main`:  
+    
     ```
     go build main.go
     ```
 
 === "Compile & Execute"
+    
+    Compila e executa a saída da compilação:  
     
     ```
     go run main.go

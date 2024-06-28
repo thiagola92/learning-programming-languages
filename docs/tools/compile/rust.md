@@ -1,10 +1,8 @@
 # Rust
 
-??? info "Compiled Language"
+??? info "Executable"
 
-    Uma linguagem compilada é responsável por ler o código e gerar um binário.  
-    
-    Se a linguagem criar um binário chamado `main`, ele pode ser executado com:  
+    Essa linguagem compila para um executável, ou seja, pode ser necessário executa-lo manualmente depois da compilação:  
     
     === "Linux / Mac"
         
@@ -22,7 +20,7 @@
 
 === "Compile"
     
-    Compila para um binário `main`:  
+    Compila para um executável `main`:  
     
     ```bash
     rustc main.rs
@@ -34,7 +32,7 @@ O package manager da linguagem fornece atalhos para compilar e executar, porém 
 
 === "Compile"
     
-    Compila para um binário localizado em `target/debug/<project_name>`:  
+    Compila para um executável localizado em `target/debug/<project_name>`:  
     
     ```bash
     cargo build
@@ -46,7 +44,7 @@ O package manager da linguagem fornece atalhos para compilar e executar, porém 
 
 === "Compile & Execute"
     
-    Compila para um binário localizado em `target/debug/<project_name>` e o executa:  
+    Compila para um executável localizado em `target/debug/<project_name>` e o executa:  
     
     ```bash
     cargo run

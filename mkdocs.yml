@@ -5,7 +5,6 @@ theme:
   palette:
     primary: green
   features:
-    - content.tabs.link
     - content.tooltips
 
 markdown_extensions:
@@ -39,6 +38,7 @@ nav:
     - tools/index.md
     - Compile:
       - tools/compile/go.md
+      - tools/compile/javascript.md
       - tools/compile/python.md
       - tools/compile/rust.md
     - Format:
