@@ -43,10 +43,12 @@ nav:
       - tools/compile/rust.md
     - Format:
       - tools/format/go.md
+      - tools/format/javascript.md
       - tools/format/python.md
       - tools/format/rust.md
     - Debug:
       - tools/debug/go.md
+      - tools/debug/javascript.md
       - tools/debug/python.md
       - tools/debug/rust.md
     - Package Manager:
