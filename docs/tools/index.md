@@ -50,6 +50,12 @@ Debuggers permitem os programadores acompanharem a execução de um código a fi
 
 ## Package Manager
 
-Seção que fala sobre o gerenciador de dependências da linguagem (dependências podem ser biblitoecas/pacotes/módulos).  
+Seção que fala sobre o gerenciador de pacotes da linguagem.  
+ 
+Existem 3 termos utilizados quando estamos falando de código a ser importado por outros:  
+
+- Módulo: Arquivo contendo código
+- Pacote: Conjunto de módulos dentro do mesmo diretório
+- Biblioteca: Conjunto de pacotes e módulos
 
 ## Version Manager

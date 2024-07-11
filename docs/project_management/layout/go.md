@@ -6,7 +6,9 @@
     
     > "Apenas arquivos no mesmo diretório"  
     > "Apenas arquivos em subdiretórios"  
-    > "Apenas em diretórios que tenham o arquivo `.package"      
+    > "Apenas em diretórios que tenham o arquivo `.package"  
+
+## Package
 
 Todos os arquivos relacionados ao mesmo pacote devem ficar na mesma pasta e o pacote principal deve ficar na raiz do projeto.  
 
@@ -29,7 +31,7 @@ import "https://www.github.com/username/repository"
 
 ## Subpackages
 
-É normal dividir um projeto grande em subdiretórios, nesse caso cada subdiretório é considerado um subpacote.  
+É normal dividir um projeto grande em subdiretórios. Nesse caso, cada subdiretório é considerado um subpacote.  
 
 ```
 .
@@ -60,6 +62,22 @@ import (
 ```
 
 O arquivo `go.mod` apenas existe no pacote principal pois ele define o início de um módulo (um conjunto de pacotes que existem para se complementar).  
+
+!!! note
+
+    Utilizando está lógica é possível diminuir a quantidade de arquivos na raiz do seu projeto. Por exemplo, deixando apenas o arquivo `main.go` na raiz:  
+    
+    ```
+    .
+    ├── .gitignore
+    ├── go.mod
+    ├── README.md
+    ├── main.go
+    └── cmd/
+        ├── file0.go
+        ├── file1.go
+        └── ...
+    ```
 
 ## Private
 
