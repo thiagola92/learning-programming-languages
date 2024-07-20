@@ -57,16 +57,39 @@ nav:
       - tools/lsp/python.md
       - tools/lsp/rust.md
     - Package Manager:
-      - tools/package_manager/go.md
-      - tools/package_manager/python.md
-      - tools/package_manager/rust.md
+      - Initialize:
+        - tools/package_manager/initialize/go.md
+        - tools/package_manager/initialize/python.md
+        - tools/package_manager/initialize/rust.md
+      - Add:
+        - tools/package_manager/add/go.md
+        - tools/package_manager/add/python.md
+        - tools/package_manager/add/rust.md
+      - Remove:
+        - tools/package_manager/remove/go.md
+        - tools/package_manager/remove/python.md
+        - tools/package_manager/remove/rust.md
+      - Install:
+        - tools/package_manager/install/go.md
+        - tools/package_manager/install/python.md
+        - tools/package_manager/install/rust.md
     - Version Manager:
-      - tools/package_manager/go.md
-      - tools/package_manager/python.md
-      - tools/package_manager/rust.md
+      - tools/version_manager/go.md
+      - tools/version_manager/python.md
+      - tools/version_manager/rust.md
   - Project Management:
     - project_management/index.md
     - Layout:
       - project_management/layout/go.md
       - project_management/layout/python.md
       - project_management/layout/rust.md
+  - How to work with X:
+    - how_to_work_with_x/index.md
+    - Files:
+      - how_to_work_with_x/files/go.md
+      - how_to_work_with_x/files/python.md
+      - how_to_work_with_x/files/rust.md
+    - Directories:
+      - how_to_work_with_x/directories/go.md
+      - how_to_work_with_x/directories/python.md
+      - how_to_work_with_x/directories/rust.md
