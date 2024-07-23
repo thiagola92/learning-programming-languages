@@ -9,11 +9,15 @@ A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).
 ## Add with Pip
 
 ```
-pip uninstall <package_name>
+pip install -r requirements.txt
 ```
+
+!!! note
+
+    Pip não obriga que as dependências estejam no arquivo `requirements.txt` mas é o local mais comum de se armazenar quando utilizando este gerenciador.
 
 ## Add with PDM
 
 ```
-pdm remove <package_name>
+pdm add <package_name>
 ```

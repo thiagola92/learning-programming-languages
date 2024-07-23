@@ -57,6 +57,7 @@ nav:
       - tools/lsp/python.md
       - tools/lsp/rust.md
     - Package Manager:
+      - tools/package_manager/index.md
       - Initialize:
         - tools/package_manager/initialize/go.md
         - tools/package_manager/initialize/python.md
@@ -69,10 +70,10 @@ nav:
         - tools/package_manager/remove/go.md
         - tools/package_manager/remove/python.md
         - tools/package_manager/remove/rust.md
-      - Install:
-        - tools/package_manager/install/go.md
-        - tools/package_manager/install/python.md
-        - tools/package_manager/install/rust.md
+      - Import:
+        - tools/package_manager/import/go.md
+        - tools/package_manager/import/python.md
+        - tools/package_manager/import/rust.md
     - Version Manager:
       - tools/version_manager/go.md
       - tools/version_manager/python.md
