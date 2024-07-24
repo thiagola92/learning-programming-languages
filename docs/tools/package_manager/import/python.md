@@ -6,7 +6,7 @@
 
 A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).  
 
-## Add with Pip
+## Import with Pip
 
 ```
 pip install -r requirements.txt
@@ -16,8 +16,8 @@ pip install -r requirements.txt
 
     Pip não obriga que as dependências estejam no arquivo `requirements.txt` mas é o local mais comum de se armazenar quando utilizando este gerenciador.
 
-## Add with PDM
+## Import with PDM
 
 ```
-pdm add <package_name>
+pdm install
 ```

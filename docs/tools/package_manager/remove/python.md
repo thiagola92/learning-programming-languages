@@ -6,13 +6,13 @@
 
 A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).  
 
-## Add with Pip
+## Remove with Pip
 
 ```
 pip uninstall <package_name>
 ```
 
-## Add with PDM
+## Remove with PDM
 
 ```
 pdm remove <package_name>
