@@ -86,11 +86,38 @@ nav:
       - project_management/layout/rust.md
   - How to work with X:
     - how_to_work_with_x/index.md
-    - Files:
-      - how_to_work_with_x/files/go.md
-      - how_to_work_with_x/files/python.md
-      - how_to_work_with_x/files/rust.md
-    - Directories:
-      - how_to_work_with_x/directories/go.md
-      - how_to_work_with_x/directories/python.md
-      - how_to_work_with_x/directories/rust.md
+    - File:
+      - how_to_work_with_x/file/go.md
+      - how_to_work_with_x/file/python.md
+      - how_to_work_with_x/file/rust.md
+    - Directory:
+      - how_to_work_with_x/directory/go.md
+      - how_to_work_with_x/directory/python.md
+      - how_to_work_with_x/directory/rust.md
+    - Thread:
+      - how_to_work_with_x/thread/go.md
+      - how_to_work_with_x/thread/python.md
+      - how_to_work_with_x/thread/rust.md
+    - Process:
+      - how_to_work_with_x/process/go.md
+      - how_to_work_with_x/process/python.md
+      - how_to_work_with_x/process/rust.md
+    - Network:
+      - how_to_work_with_x/network/go.md
+      - how_to_work_with_x/network/python.md
+      - how_to_work_with_x/network/rust.md
+    - Lock:
+      - how_to_work_with_x/lock/index.md
+      - Mutex:
+        - how_to_work_with_x/lock/mutex/go.md
+        - how_to_work_with_x/lock/mutex/python.md
+        - how_to_work_with_x/lock/mutex/rust.md
+      - Semaphore:
+        - how_to_work_with_x/lock/semaphore/go.md
+        - how_to_work_with_x/lock/semaphore/python.md
+        - how_to_work_with_x/lock/semaphore/rust.md
+      - File:
+        - how_to_work_with_x/lock/file/C.md
+        - how_to_work_with_x/lock/file/go.md
+        - how_to_work_with_x/lock/file/python.md
+        - how_to_work_with_x/lock/file/rust.md
