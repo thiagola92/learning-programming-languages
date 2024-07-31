@@ -2,25 +2,53 @@
 
 A ideia é reunir exemplos **básicos** de como trabalhar com um conhecimento genérico computação.  
 
-Existe diversas maneiras das quais podemos interagir com arquivos (criar, truncar, deletar, ler, escrever, renomear, ...). No entanto, é mais fácil mostrar exemplos de interações essenciais (ler, escrever) e o desenvolvedor utiliza-las como base temporária enquanto não deseja se aprofundar na linguagem.  
+Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas encerrar o programa. Por exemplo:  
 
-Por exemplo, na linguagem [Go](https://go.dev/) podemos escrever em um arquivo existente com:  
+=== "Not Handling"
 
-```go
-package main
+    ```go
+    package main
 
-import "os"
+    import "os"
 
-func main() {
-    file, _ := os.OpenFile("example.txt", os.O_WRONLY, 0000)
-    file.Write([]byte("Example"))
-    file.Close()
-}
-```
+    func main() {
+        file, _ := os.OpenFile("example.txt", os.O_WRONLY, 0000)
+        file.Write([]byte("Example"))
+        file.Close()
+    }
+    ```
 
-Se o desenvolvedor quisesse que o arquivo também fosse criado caso não existisse, ele poderia olhar na documentação oficial do pacote `os` ou da função `OpenFile()`.  
+=== "Handling"
 
-Note que ignoramos tratamentos de erro, pois buscamos passar o mais rápido o conhecimento sobre aquele determinado assunto. Além disto, tratamentos de erros em exemplos acabariam tratando com o encerramento do programa, o que não seria nada de especial para o leitor.  
+    ```go
+    package main
+
+    import "os"
+
+    func main() {
+        file, err := os.OpenFile("example.txt", os.O_WRONLY, 0000)
+
+        if err != nil {
+            os.Exit(1)
+        }
+
+        _, err := file.Write([]byte("Example"))
+
+        if err != nil {
+            os.Exit(2)
+        }
+
+        file.Close()
+
+        if err != nil {
+            os.Exit(3)
+        }
+    }
+    ```
+
+!!! warning
+
+    Tratamento de erros é importante e não deve ser ignorado no dia-a-dia.  
 
 ## File
 
@@ -33,6 +61,10 @@ Note que ignoramos tratamentos de erro, pois buscamos passar o mais rápido o co
 - Create
 
 ## Process
+
+- Fork
+- Exec
+- Spawn / Clone?
 
 ## Thread
 
