@@ -2871,14 +2871,22 @@
 
 <span class="kd">func</span><span class="w"> </span><span class="nx">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">file</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">os</span><span class="p">.</span><span class="nx">OpenFile</span><span class="p">(</span><span class="s">&quot;example.txt&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">os</span><span class="p">.</span><span class="nx">O_WRONLY</span><span class="p">,</span><span class="w"> </span><span class="mo">0000</span><span class="p">)</span>
-<span class="w">    </span><span class="nx">quantity</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">file</span><span class="p">.</span><span class="nx">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&quot;Example&quot;</span><span class="p">))</span>
+<span class="w">    </span><span class="nx">file</span><span class="p">.</span><span class="nx">Write</span><span class="p">([]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&quot;Example&quot;</span><span class="p">))</span>
 <span class="w">    </span><span class="nx">file</span><span class="p">.</span><span class="nx">Close</span><span class="p">()</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Se o desenvolvedor quisesse que o arquivo também fosse criado caso não existisse, ele poderia olhar na documentação oficial do pacote <code>os</code> ou da função <code>OpenFile()</code>.  </p>
 <p>Note que ignoramos tratamentos de erro, pois buscamos passar o mais rápido o conhecimento sobre aquele determinado assunto. Além disto, tratamentos de erros em exemplos acabariam tratando com o encerramento do programa, o que não seria nada de especial para o leitor.  </p>
 <h2 id="file">File</h2>
+<ul>
+<li>Read</li>
+<li>Write</li>
+</ul>
 <h2 id="directory">Directory</h2>
+<ul>
+<li>List</li>
+<li>Create</li>
+</ul>
 <h2 id="process">Process</h2>
 <h2 id="thread">Thread</h2>
 <h2 id="network">Network</h2>
