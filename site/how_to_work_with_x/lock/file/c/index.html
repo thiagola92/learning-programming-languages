@@ -2771,6 +2771,19 @@
 <span class="n">fcntl</span><span class="p">(</span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="n">F_SETLKW</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">fl</span><span class="p">);</span>
 </code></pre></div>
 <h2 id="fcntl-open-file-description-locks-non-posix">fcntl "Open file description locks (non-POSIX)"</h2>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">fd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">open</span><span class="p">(</span><span class="s">&quot;example.txt&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">O_RDWR</span><span class="p">);</span>
+<span class="k">struct</span><span class="w"> </span><span class="nc">flock</span><span class="w"> </span><span class="n">fl</span><span class="p">;</span>
+
+<span class="n">fl</span><span class="p">.</span><span class="n">l_whence</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SEEK_SET</span><span class="p">;</span>
+<span class="n">fl</span><span class="p">.</span><span class="n">l_start</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="n">fl</span><span class="p">.</span><span class="n">l_len</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="n">fl</span><span class="p">.</span><span class="n">l_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">F_WRLCK</span><span class="p">;</span>
+
+<span class="n">fcntl</span><span class="p">(</span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="n">F_OFD_SETLKW</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">fl</span><span class="p">);</span>
+<span class="c1">// ...</span>
+<span class="n">fl</span><span class="p">.</span><span class="n">l_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">F_UNLCK</span><span class="p">;</span>
+<span class="n">fcntl</span><span class="p">(</span><span class="n">fd</span><span class="p">,</span><span class="w"> </span><span class="n">F_OFD_SETLKW</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">fl</span><span class="p">);</span>
+</code></pre></div>
 
 
 

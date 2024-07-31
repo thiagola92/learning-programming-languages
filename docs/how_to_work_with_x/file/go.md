@@ -1,33 +1,5 @@
 # Go
 
-## Write to File
-
-=== "All Content"
-
-    ```go
-    package main
-
-    import "os"
-
-    func main() {
-	    err := os.WriteFile("example.txt", []byte("Example"), 0600)
-    }
-    ```
-
-=== "Stream Content"
-
-    ```go
-    package main
-
-    import "os"
-
-    func main() {
-        file, err := os.OpenFile("example.txt", os.O_WRONLY, 0000)
-        quantity, err := file.Write([]byte("Example"))
-        file.Close()
-    }
-    ```
-
 ## Read File
 
 === "All Content"
@@ -38,7 +10,7 @@
     import "os"
 
     func main() {
-        content, err := os.ReadFile("example.txt")
+        content, _ := os.ReadFile("example.txt")
     }
     ```
 
@@ -52,8 +24,36 @@
     func main() {
         partial_content := make([]byte, 10)
 
-        file, err := os.OpenFile("example.txt", os.O_RDONLY, 0000)
-        quantity, err := file.Read(partial_content)
+        file, _ := os.OpenFile("example.txt", os.O_RDONLY, 0000)
+        file.Read(partial_content)
+        file.Close()
+    }
+    ```
+
+## Write to File
+
+=== "All Content"
+
+    ```go
+    package main
+
+    import "os"
+
+    func main() {
+	    os.WriteFile("example.txt", []byte("Example"), 0600)
+    }
+    ```
+
+=== "Stream Content"
+
+    ```go
+    package main
+
+    import "os"
+
+    func main() {
+        file, _ := os.OpenFile("example.txt", os.O_WRONLY, 0000)
+        file.Write([]byte("Example"))
         file.Close()
     }
     ```

@@ -13,7 +13,7 @@ import "os"
 
 func main() {
     file, _ := os.OpenFile("example.txt", os.O_WRONLY, 0000)
-    quantity, _ := file.Write([]byte("Example"))
+    file.Write([]byte("Example"))
     file.Close()
 }
 ```
@@ -24,7 +24,13 @@ Note que ignoramos tratamentos de erro, pois buscamos passar o mais rápido o co
 
 ## File
 
+- Read
+- Write
+
 ## Directory
+
+- List
+- Create
 
 ## Process
 
