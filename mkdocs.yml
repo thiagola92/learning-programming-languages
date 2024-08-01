@@ -90,6 +90,11 @@ nav:
       - how_to_work_with_x/file/go.md
       - how_to_work_with_x/file/python.md
       - how_to_work_with_x/file/rust.md
+    - File Lock:
+      - how_to_work_with_x/file_lock/c.md
+      - how_to_work_with_x/file_lock/go.md
+      - how_to_work_with_x/file_lock/python.md
+      - how_to_work_with_x/file_lock/rust.md
     - Directory:
       - how_to_work_with_x/directory/go.md
       - how_to_work_with_x/directory/python.md
@@ -106,18 +111,3 @@ nav:
       - how_to_work_with_x/network/go.md
       - how_to_work_with_x/network/python.md
       - how_to_work_with_x/network/rust.md
-    - Lock:
-      - how_to_work_with_x/lock/index.md
-      - Mutex:
-        - how_to_work_with_x/lock/mutex/go.md
-        - how_to_work_with_x/lock/mutex/python.md
-        - how_to_work_with_x/lock/mutex/rust.md
-      - Semaphore:
-        - how_to_work_with_x/lock/semaphore/go.md
-        - how_to_work_with_x/lock/semaphore/python.md
-        - how_to_work_with_x/lock/semaphore/rust.md
-      - File:
-        - how_to_work_with_x/lock/file/C.md
-        - how_to_work_with_x/lock/file/go.md
-        - how_to_work_with_x/lock/file/python.md
-        - how_to_work_with_x/lock/file/rust.md
