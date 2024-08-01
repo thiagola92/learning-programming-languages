@@ -10,32 +10,64 @@ Uma alternativa é utilizar o pacote [go-internal](https://pkg.go.dev/github.com
 
 ## Shared Lock
 
-```go
-package main
+=== "All Content"
 
-import (
-    "github.com/rogpeppe/go-internal/lockedfile"
-)
+    ```go
+    package main
 
-func main() {
-    file, _ := lockedfile.Open("example.txt")
-    // ...
-    file.Close()
-}
-```
+    import (
+        "github.com/rogpeppe/go-internal/lockedfile"
+    )
+
+    func main() {
+        content, _ := lockedfile.Read("example.txt")
+    }
+    ```
+
+=== "Stream Content"
+
+    ```go
+    package main
+
+    import (
+        "github.com/rogpeppe/go-internal/lockedfile"
+    )
+
+    func main() {
+        file, _ := lockedfile.Open("example.txt")
+        // ...
+        file.Close()
+    }
+    ```
 
 ## Exclusive Lock
 
-```go
-package main
+=== "All Content"
 
-import (
-    "github.com/rogpeppe/go-internal/lockedfile"
-)
+    ```go
+    package main
 
-func main() {
-    file, _ := lockedfile.Edit("example.txt")
-    // ...
-    file.Close()
-}
-```
+    import (
+        "github.com/rogpeppe/go-internal/lockedfile"
+    )
+
+    func main() {
+        lockedfile.Write("example.txt", []byte("Example"), 0600)
+    }
+    ```
+
+=== "Stream Content"
+
+    ```go
+    package main
+
+    import (
+        "github.com/rogpeppe/go-internal/lockedfile"
+    )
+
+    func main() {
+        file, _ := lockedfile.Edit("example.txt")
+        // ...
+        file.Close()
+    }
+    ```
