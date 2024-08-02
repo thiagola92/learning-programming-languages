@@ -50,10 +50,27 @@ Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas 
 
     Tratamento de erros é importante e não deve ser ignorado no dia-a-dia.  
 
+## Print & Scan
+
+Seção que fala sobre duas ações mais comuns em programação:  
+
+- Print
+    - Escrever um conteúdo na saída padrão
+- Scan
+    - Ler um conteúdo na entrada padrão
+
 ## File
 
+Seção que fala sobre as duas ações mais essenciais para arquivos:  
+
 - Read
+    - Ler o conteúdo de um arquivo
 - Write
+    - Escrever conteúdo em um arquivo
+
+!!! note
+
+    No linux a saída e entrada padrão são arquivos, então pode se utilizar estes métodos para escrever na saída/entrada padrão.  
 
 ## Directory
 
