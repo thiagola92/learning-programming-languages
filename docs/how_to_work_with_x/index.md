@@ -52,7 +52,7 @@ Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas 
 
 ## Print & Scan
 
-Seção que fala sobre duas ações mais comuns em programação:  
+Seção que fala sobre duas ações clássicas de se aprender em programação:  
 
 - Print
     - Escrever um conteúdo na saída padrão

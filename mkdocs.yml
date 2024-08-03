@@ -86,6 +86,11 @@ nav:
       - project_management/layout/rust.md
   - How to work with X:
     - how_to_work_with_x/index.md
+    - Print & Scan:
+      - how_to_work_with_x/print_scan/c.md
+      - how_to_work_with_x/print_scan/go.md
+      - how_to_work_with_x/print_scan/python.md
+      - how_to_work_with_x/print_scan/rust.md
     - File:
       - how_to_work_with_x/file/go.md
       - how_to_work_with_x/file/python.md
