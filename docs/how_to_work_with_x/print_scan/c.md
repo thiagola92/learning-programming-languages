@@ -2,7 +2,7 @@
 
 ## Print
 
-=== "Formated"
+=== "Formatted"
 
     ```c
     #include <stdio.h>
@@ -14,7 +14,7 @@
 
 ## Scan
 
-=== "Formated"
+=== "Formatted"
 
     ```c
     #include <stdio.h>

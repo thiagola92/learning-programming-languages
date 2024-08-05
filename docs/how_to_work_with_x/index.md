@@ -59,6 +59,17 @@ Seção que fala sobre duas ações clássicas de se aprender em programação:
 - Scan
     - Ler um conteúdo na entrada padrão
 
+É importante entender que a princípio tudo lido e escrito são bytes, apenas quando entra no seu programa que convertemos para um tipo específico.  
+
+- Formatted
+    - Print
+        - Transformamos uma devida variável em bytes para que ela seja exibida na tela
+    - Scan
+        - Definimos o tipo de variável a qual queremos que os bytes sejam convertidos
+- Raw
+    - Print & Scan
+        - Não existe nenhuma conversão, estamos lendo e escrevendo bytes
+
 ## File
 
 Seção que fala sobre as duas ações mais essenciais para arquivos:  

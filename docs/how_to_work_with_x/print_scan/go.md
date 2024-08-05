@@ -2,7 +2,7 @@
 
 ## Print
 
-=== "Formated"
+=== "Formatted"
 
     ```go
     package main
@@ -28,7 +28,7 @@
 
 ## Scan
 
-=== "Formated"
+=== "Formatted"
 
     ```go
     package main
@@ -52,13 +52,7 @@
     )
 
     func main() {
-        text := make([]byte, 30)
-
-        reader := bufio.NewReader(os.Stdin)
-
-        for i := 0; i < len(text); i++ {
-            b, _ := reader.ReadByte()
-            text[i] = b
-        }
+        text := make([]byte, 10)
+        bufio.NewReader(os.Stdin).Read(text)
     }
     ```

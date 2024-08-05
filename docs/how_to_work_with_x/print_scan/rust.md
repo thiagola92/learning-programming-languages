@@ -2,7 +2,7 @@
 
 ## Print
 
-=== "Formated"
+=== "Formatted"
 
     ```rust
     fn main() {
