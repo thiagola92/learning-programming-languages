@@ -2749,6 +2749,17 @@
 <p>Nem todas as linguagens possuem um debugger próprio, algumas recomendam utilizar debuggers já existentes ou criados pela comunidade. Por exemplo, é possível usar <a href="https://en.wikipedia.org/wiki/GNU_Debugger"><abbr title="GNU Debugger">GDB</abbr></a> e <a href="https://en.wikipedia.org/wiki/LLDB_(debugger)"><abbr title="Low-Level Debugger">LLDB</abbr></a> com a linguagem Rust.  </p>
 </div>
 <h2 id="lsp">LSP</h2>
+<p>Seção que fala sobre LSP (languagem server protocol) da linguagem.  </p>
+<p>Diferente de outros programas como formatador e linter, que são executados ao se ter a necessidade deles, LSP mantém um server localmente esperando por código para se começar uma análise.  </p>
+<p>O resultado desta análise pode variar de acordo com o LSP, eles podem fornecer funcionalidades como:  </p>
+<ul>
+<li>Formatador</li>
+<li>Autocomplete</li>
+<li>Avisar que código está inválido</li>
+<li>Avisar que variável/função/módulo nunca é chamado</li>
+<li>Buscar onde uma variável/função/módulo foi definida</li>
+<li>...</li>
+</ul>
 <h2 id="package-manager">Package Manager</h2>
 <p>Seção que fala sobre o gerenciador de pacotes da linguagem.  </p>
 <p>Gerenciadores de pacotes mantém uma lista de módulos/pacotes/bibliotecas a serem importados para o seu projeto.  </p>
@@ -2764,6 +2775,16 @@
 <h2 id="version-manager">Version Manager</h2>
 <p>Seção que fala sobre gerenciador de versão para a linguagem.  </p>
 <p>Gerenciadores de versão permitem a alteração da versão da linguagem dentro da máquina do desenvolvedor.  </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Importante se for preciso trabalhar em múltiplos projetos que utilizam versões diferente da linguagem.  </p>
+<blockquote>
+<p>Por que não utilizar a versão mais recente da linguagem para todos os projetos?</p>
+</blockquote>
+<p>Atualização de versão pode trazer diversas alterações: remoção de função/biblioteca, alteração na arquitetura, etc.  </p>
+<p>Projetos grandes e velhos precisam ter cuidado durante a atualização para que nada tenha quebrado, então diversos testes são feitos a cada mudança.  </p>
+<p>Por outro lado, projetos novos utilizando a versão mais recente possuem o risco de não ter instabilidade. Justamente por não terem tido tanto tempo no mercado para bugs serem descobertos.  </p>
+</div>
 
 
 
