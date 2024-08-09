@@ -2,322 +2,342 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://127.0.0.1/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/directory/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/directory/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/directory/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file/c/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file_lock/c/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file_lock/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file_lock/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/file_lock/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/network/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/network/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/network/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/how_to_work_with_x/print_scan/c/</loc>
+         <lastmod>2024-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/how_to_work_with_x/print_scan/go/</loc>
+         <lastmod>2024-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/how_to_work_with_x/print_scan/python/</loc>
+         <lastmod>2024-08-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://127.0.0.1/how_to_work_with_x/print_scan/rust/</loc>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/process/c/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/process/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/process/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/process/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/thread/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/thread/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/how_to_work_with_x/thread/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/install/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/install/javascript/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/install/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/install/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/project_management/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/project_management/layout/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/project_management/layout/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/project_management/layout/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/compile/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/compile/javascript/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/compile/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/compile/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/debug/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/debug/javascript/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/debug/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/debug/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/format/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/format/javascript/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/format/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/format/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/lsp/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/lsp/javascript/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/lsp/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/lsp/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/add/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/add/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/add/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/import/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/import/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/import/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/initialize/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/initialize/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/initialize/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/remove/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/remove/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/package_manager/remove/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/version_manager/go/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/version_manager/python/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://127.0.0.1/tools/version_manager/rust/</loc>
-         <lastmod>2024-08-01</lastmod>
+         <lastmod>2024-08-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -50,6 +50,19 @@ Debuggers permitem os programadores acompanharem a execução de um código a fi
 
 ## LSP
 
+Seção que fala sobre LSP (languagem server protocol) da linguagem.  
+
+Diferente de outros programas como formatador e linter, que são executados ao se ter a necessidade deles, LSP mantém um server localmente esperando por código para se começar uma análise.  
+
+O resultado desta análise pode variar de acordo com o LSP, eles podem fornecer funcionalidades como:  
+
+    - Formatador
+    - Autocomplete
+    - Avisar que código está inválido
+    - Avisar que variável/função/módulo nunca é chamado
+    - Buscar onde uma variável/função/módulo foi definida
+    - ...
+
 ## Package Manager
 
 Seção que fala sobre o gerenciador de pacotes da linguagem.  
@@ -69,3 +82,15 @@ Gerenciadores de pacotes mantém uma lista de módulos/pacotes/bibliotecas a ser
 Seção que fala sobre gerenciador de versão para a linguagem.  
 
 Gerenciadores de versão permitem a alteração da versão da linguagem dentro da máquina do desenvolvedor.  
+
+!!! tip
+
+    Importante se for preciso trabalhar em múltiplos projetos que utilizam versões diferente da linguagem.  
+
+    > Por que não utilizar a versão mais recente da linguagem para todos os projetos?
+
+    Atualização de versão pode trazer diversas alterações: remoção de função/biblioteca, alteração na arquitetura, etc.  
+
+    Projetos grandes e velhos precisam ter cuidado durante a atualização para que nada tenha quebrado, então diversos testes são feitos a cada mudança.  
+    
+    Por outro lado, projetos novos utilizando a versão mais recente possuem o risco de não ter instabilidade. Justamente por não terem tido tanto tempo no mercado para bugs serem descobertos.  
