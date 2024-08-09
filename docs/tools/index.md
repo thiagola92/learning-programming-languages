@@ -56,12 +56,12 @@ Diferente de outros programas como formatador e linter, que são executados ao s
 
 O resultado desta análise pode variar de acordo com o LSP, eles podem fornecer funcionalidades como:  
 
-    - Formatador
-    - Autocomplete
-    - Avisar que código está inválido
-    - Avisar que variável/função/módulo nunca é chamado
-    - Buscar onde uma variável/função/módulo foi definida
-    - ...
+- Formatador
+- Autocomplete
+- Avisar que código está inválido
+- Avisar que variável/função/módulo nunca é chamado
+- Buscar onde uma variável/função/módulo foi definida
+- ...
 
 ## Package Manager
 
