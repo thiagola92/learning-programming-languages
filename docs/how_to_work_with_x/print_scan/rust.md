@@ -10,7 +10,7 @@
     }
     ```
 
-=== "Raw"
+=== "IO"
 
     ```rust
     use std::io::{self, Write};
@@ -22,7 +22,7 @@
 
 ## Scan
 
-=== "Raw"
+=== "IO"
 
     ```rust
     use std::io::{self, Read};

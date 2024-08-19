@@ -69,6 +69,8 @@ Seção que fala sobre duas ações clássicas de se aprender em programação:
 - Raw
     - Print & Scan
         - Não existe nenhuma conversão, estamos lendo e escrevendo bytes
+- IO
+    - Mesmo que Raw porém utilizando standard input & output
 
 ## File
 

@@ -19,6 +19,18 @@
     ```go
     package main
 
+    import "fmt"
+
+    func main() {
+        fmt.Print("example")
+    }
+    ```
+
+=== "IO"
+
+    ```go
+    package main
+
     import "os"
 
     func main() {
@@ -41,7 +53,7 @@
     }
     ```
 
-=== "Raw"
+=== "IO"
 
     ```go
     package main
