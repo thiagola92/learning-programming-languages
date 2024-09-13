@@ -95,24 +95,29 @@ nav:
       - how_to_work_with_x/file/go.md
       - how_to_work_with_x/file/python.md
       - how_to_work_with_x/file/rust.md
+    - Directory:
+      - how_to_work_with_x/directory/go.md
+      - how_to_work_with_x/directory/python.md
+      - how_to_work_with_x/directory/rust.md
+    - Process:
+      - how_to_work_with_x/process/go.md
+      - how_to_work_with_x/process/python.md
+      - how_to_work_with_x/process/rust.md
+    - Thread:
+      - how_to_work_with_x/thread/go.md
+      - how_to_work_with_x/thread/python.md
+      - how_to_work_with_x/thread/rust.md
+    - Network:
+      - how_to_work_with_x/network/go.md
+      - how_to_work_with_x/network/python.md
+      - how_to_work_with_x/network/rust.md
+    - Log:
+      - how_to_work_with_x/log/c.md
+      - how_to_work_with_x/log/go.md
+      - how_to_work_with_x/log/python.md
+      - how_to_work_with_x/log/rust.md
     - File Lock:
       - how_to_work_with_x/file_lock/c.md
       - how_to_work_with_x/file_lock/go.md
       - how_to_work_with_x/file_lock/python.md
       - how_to_work_with_x/file_lock/rust.md
-    - Directory:
-      - how_to_work_with_x/directory/go.md
-      - how_to_work_with_x/directory/python.md
-      - how_to_work_with_x/directory/rust.md
-    - Thread:
-      - how_to_work_with_x/thread/go.md
-      - how_to_work_with_x/thread/python.md
-      - how_to_work_with_x/thread/rust.md
-    - Process:
-      - how_to_work_with_x/process/go.md
-      - how_to_work_with_x/process/python.md
-      - how_to_work_with_x/process/rust.md
-    - Network:
-      - how_to_work_with_x/network/go.md
-      - how_to_work_with_x/network/python.md
-      - how_to_work_with_x/network/rust.md
