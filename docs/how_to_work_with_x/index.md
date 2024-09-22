@@ -118,7 +118,7 @@ E poderiamos fazer em múltiplos deles ao mesmo tempo.
     - **stdout**: Saída padrão
     - **stderr**: Saída de erro padrão
 
-    Em [Print & Scan](#print-scan) vimos comandos para interagir com `stdin` e `stdout`, porém logs são conhecidos por interagirem com `stderr` por padrão.  
+    Em [Print & Scan](#print-scan) vimos comandos para interagir com `stdin` e `stdout`, porém logs são conhecidos por interagirem com `stderr`.  
 
     ```mermaid
     flowchart LR
@@ -131,8 +131,6 @@ E poderiamos fazer em múltiplos deles ao mesmo tempo.
         program --> stdout
         program --> stderr
     ```
-
-    Por padrão `stdout` e `stderr` escrevem no terminal, isso pode causar o mal entendido que ambos funcionam igual, porém são duas saídas diferentes.  
     
     Muitos programas utilizando `stdout` de um programa como `stdin` de outro programa para construir uma integração entre eles:  
 
@@ -158,7 +156,7 @@ E poderiamos fazer em múltiplos deles ao mesmo tempo.
         program2 --> stderr2
     ```
     
-    Isto torna `stderr` ótimo para armazenar mensagens que **não** devem ser consumidas em um fluxo de programas.  
+    Consequentemente o `stderr` acaba sendo bom para escrever mensagens de logs, pois essa mensagens acabam não sendo enviadas para o próximo fluxo do programas.  
     
     !!! example
 
