@@ -2543,11 +2543,11 @@
   
   
     <li class="md-nav__item">
-      <a href="log/c.md" class="md-nav__link">
+      <a href="log/c/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    C
   </span>
   
 
@@ -2564,11 +2564,11 @@
   
   
     <li class="md-nav__item">
-      <a href="log/go.md" class="md-nav__link">
+      <a href="log/go/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    Go
   </span>
   
 
@@ -2585,11 +2585,11 @@
   
   
     <li class="md-nav__item">
-      <a href="log/python.md" class="md-nav__link">
+      <a href="log/python/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    Python
   </span>
   
 
@@ -2606,11 +2606,11 @@
   
   
     <li class="md-nav__item">
-      <a href="log/rust.md" class="md-nav__link">
+      <a href="log/rust/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    None
+    Rust
   </span>
   
 
@@ -2993,7 +2993,7 @@
 <li><strong>stdout</strong>: Saída padrão</li>
 <li><strong>stderr</strong>: Saída de erro padrão</li>
 </ul>
-<p>Em <a href="#print-scan">Print &amp; Scan</a> vimos comandos para interagir com <code>stdin</code> e <code>stdout</code>, porém logs são conhecidos por interagirem com <code>stderr</code> por padrão.  </p>
+<p>Em <a href="#print-scan">Print &amp; Scan</a> vimos comandos para interagir com <code>stdin</code> e <code>stdout</code>, porém logs são conhecidos por interagirem com <code>stderr</code>.  </p>
 <pre class="mermaid"><code>flowchart LR
     stdin[stdin]
     stdout[stdout]
@@ -3003,7 +3003,6 @@
     stdin --&gt; program
     program --&gt; stdout
     program --&gt; stderr</code></pre>
-<p>Por padrão <code>stdout</code> e <code>stderr</code> escrevem no terminal, isso pode causar o mal entendido que ambos funcionam igual, porém são duas saídas diferentes.  </p>
 <p>Muitos programas utilizando <code>stdout</code> de um programa como <code>stdin</code> de outro programa para construir uma integração entre eles:  </p>
 <pre class="mermaid"><code>flowchart LR
     stdin[stdin]
@@ -3024,7 +3023,7 @@
     stdin2 --&gt; program2
     program2 --&gt; stdout2
     program2 --&gt; stderr2</code></pre>
-<p>Isto torna <code>stderr</code> ótimo para armazenar mensagens que <strong>não</strong> devem ser consumidas em um fluxo de programas.  </p>
+<p>Consequentemente o <code>stderr</code> acaba sendo bom para escrever mensagens de logs, pois essa mensagens acabam não sendo enviadas para o próximo fluxo do programas.  </p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
 <p><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a> faz o link entre <code>stdout</code> de um programa com <code>stdin</code> de outro utilizando o operador <code>|</code>:  </p>

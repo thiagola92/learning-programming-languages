@@ -20,7 +20,7 @@
 
 === "Stream Content"
 
-    ```C
+    ```c
     #include <stdio.h>
 
     int main() {

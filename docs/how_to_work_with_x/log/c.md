@@ -14,19 +14,19 @@ Em sistemas operacionais que seguem os padrões POSIX, existe uma biblioteca par
 
 ### File
 
-```C
+```c
 #include <stdio.h>
 #include <sys/syslog.h>
 
 int main() {
   openlog(NULL, LOG_CONS, LOG_USER);
-  syslog(LOG_INFO, "example");
+  syslog(LOG_INFO, "Example");
   closelog();
 }
 ```
 
 ```
-2024-09-22T19:15:03.375012-03:00 username main.out: example
+2024-09-22T19:15:03.375012-03:00 username main.out: Example
 ```
 
 !!! note
@@ -40,19 +40,19 @@ int main() {
 
 Opcionalmente podemos também mandar para `stderr` se utilizarmos `LOG_PERROR`.  
 
-```C
+```c
 #include <stdio.h>
 #include <sys/syslog.h>
 
 int main() {
   openlog(NULL, LOG_PERROR, LOG_USER);
-  syslog(LOG_INFO, "example");
+  syslog(LOG_INFO, "Example");
   closelog();
 }
 ```
 
 ```
-main.out: example
+main.out: Example
 ```
 
 !!! note

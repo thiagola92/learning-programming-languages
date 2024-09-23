@@ -4,7 +4,7 @@
 
 ### flock
 
-```C
+```c
 #include <sys/file.h>
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
 
 ### fcntl "Advisory record locking"
 
-```C
+```c
 #include <sys/file.h>
 
 int main() {
@@ -38,7 +38,7 @@ int main() {
 
 ### fcntl "Open file description locks (non-POSIX)"
 
-```C title="WIP"
+```c title="WIP"
 #include <sys/file.h>
 
 int main() {
@@ -61,7 +61,7 @@ int main() {
 
 ### flock
 
-```C
+```c
 #include <sys/file.h>
 
 int main() {
@@ -74,7 +74,7 @@ int main() {
 
 ### lockf
 
-```C
+```c
 #include <sys/file.h>
 
 int main() {
@@ -87,7 +87,7 @@ int main() {
 
 ### fcntl "Advisory record locking"
 
-```C
+```c
 #include <sys/file.h>
 
 int main() {
@@ -108,7 +108,7 @@ int main() {
 
 ### fcntl "Open file description locks (non-POSIX)"
 
-```C title="WIP"
+```c title="WIP"
 #include <sys/file.h>
 
 int main() {
