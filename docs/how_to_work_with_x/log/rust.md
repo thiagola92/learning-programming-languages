@@ -6,7 +6,7 @@
 
 A biblioteca segue parcialmente o padrão [syslog](https://en.wikipedia.org/wiki/Syslog).  
 
-A biblioteca é uma [facade](https://en.wikipedia.org/wiki/Facade_pattern), ou seja, apenas providência o front-end do logging. É necessária a implementação concreta de logar.  
+A biblioteca é uma [facade](https://en.wikipedia.org/wiki/Facade_pattern), ou seja, apenas providência o front-end do logging. É necessária a implementação concreta do logger.  
 
 ## File
 
@@ -37,10 +37,8 @@ impl Log for Logger {
     }
 }
 
-static LOGGER: Logger = Logger;
-
 fn main() {
-    _ = log::set_logger(&LOGGER);
+    _ = log::set_logger(&Logger);
     log::set_max_level(log::LevelFilter::Info);
     info!("Example");
 }
@@ -49,6 +47,11 @@ fn main() {
 ```
 INFO - Example
 ```
+
+!!! note
+
+    Está implementação não é recomendada pois irá abrir o arquivo sempre que for escrever.  
+    Uma recomendação seria abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  
 
 ## Stderr
 
