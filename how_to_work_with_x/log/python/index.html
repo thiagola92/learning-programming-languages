@@ -2770,8 +2770,28 @@
 
 
 <h1 id="python">Python</h1>
+<details class="info">
+<summary>Official</summary>
+<p>Esta biblioteca é mantida pelos criadores oficiais da linguagem.</p>
+</details>
+<p>A biblioteca segue parcialmente o padrão <a href="https://en.wikipedia.org/wiki/Syslog">syslog</a>.  </p>
+<p>O comportamento padrão da biblioteca é ignorar todo log abaixo do level <code>logging.WARNING</code>, por isto adicionamos <code>logging.INFO</code>.  </p>
 <h2 id="file">File</h2>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;example.log&quot;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+<span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Example&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>INFO:root:Example
+</code></pre></div>
 <h2 id="stderr">Stderr</h2>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+<span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Example&quot;</span><span class="p">)</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>INFO:root:Example
+</code></pre></div>
 
 
 

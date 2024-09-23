@@ -2816,11 +2816,11 @@
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="n">openlog</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">LOG_CONS</span><span class="p">,</span><span class="w"> </span><span class="n">LOG_USER</span><span class="p">);</span>
-<span class="w">  </span><span class="n">syslog</span><span class="p">(</span><span class="n">LOG_INFO</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;example&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">syslog</span><span class="p">(</span><span class="n">LOG_INFO</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Example&quot;</span><span class="p">);</span>
 <span class="w">  </span><span class="n">closelog</span><span class="p">();</span>
 <span class="p">}</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>2024-09-22T19:15:03.375012-03:00 username main.out: example
+<div class="highlight"><pre><span></span><code>2024-09-22T19:15:03.375012-03:00 username main.out: Example
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -2837,11 +2837,11 @@
 
 <span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="n">openlog</span><span class="p">(</span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">LOG_PERROR</span><span class="p">,</span><span class="w"> </span><span class="n">LOG_USER</span><span class="p">);</span>
-<span class="w">  </span><span class="n">syslog</span><span class="p">(</span><span class="n">LOG_INFO</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;example&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="n">syslog</span><span class="p">(</span><span class="n">LOG_INFO</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Example&quot;</span><span class="p">);</span>
 <span class="w">  </span><span class="n">closelog</span><span class="p">();</span>
 <span class="p">}</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>main.out: example
+<div class="highlight"><pre><span></span><code>main.out: Example
 </code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
