@@ -2775,7 +2775,7 @@
 <p>Esta biblioteca é mantida pelos criadores oficiais da linguagem.</p>
 </details>
 <p>A biblioteca segue parcialmente o padrão <a href="https://en.wikipedia.org/wiki/Syslog">syslog</a>.  </p>
-<p>A biblioteca é uma <a href="https://en.wikipedia.org/wiki/Facade_pattern">facade</a>, ou seja, apenas providência o front-end do logging. É necessária a implementação concreta de logar.  </p>
+<p>A biblioteca é uma <a href="https://en.wikipedia.org/wiki/Facade_pattern">facade</a>, ou seja, apenas providência o front-end do logging. É necessária a implementação concreta do logger.  </p>
 <h2 id="file">File</h2>
 <div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">log</span><span class="p">::{</span><span class="n">info</span><span class="p">,</span><span class="w"> </span><span class="n">Log</span><span class="p">};</span>
 <span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::{</span><span class="n">fs</span><span class="p">::</span><span class="n">OpenOptions</span><span class="p">,</span><span class="w"> </span><span class="n">io</span><span class="p">::</span><span class="n">Write</span><span class="p">};</span>
@@ -2803,16 +2803,19 @@
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 
-<span class="k">static</span><span class="w"> </span><span class="n">LOGGER</span><span class="p">:</span><span class="w"> </span><span class="nc">Logger</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Logger</span><span class="p">;</span>
-
 <span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">log</span><span class="p">::</span><span class="n">set_logger</span><span class="p">(</span><span class="o">&amp;</span><span class="n">LOGGER</span><span class="p">);</span>
+<span class="w">    </span><span class="n">_</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">log</span><span class="p">::</span><span class="n">set_logger</span><span class="p">(</span><span class="o">&amp;</span><span class="n">Logger</span><span class="p">);</span>
 <span class="w">    </span><span class="n">log</span><span class="p">::</span><span class="n">set_max_level</span><span class="p">(</span><span class="n">log</span><span class="p">::</span><span class="n">LevelFilter</span><span class="p">::</span><span class="n">Info</span><span class="p">);</span>
 <span class="w">    </span><span class="n">info</span><span class="o">!</span><span class="p">(</span><span class="s">&quot;Example&quot;</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>INFO - Example
 </code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Está implementação não é recomendada pois irá abrir o arquivo sempre que for escrever.<br />
+Uma recomendação seria abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  </p>
+</div>
 <h2 id="stderr">Stderr</h2>
 <div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">log</span><span class="p">::</span><span class="n">info</span><span class="p">;</span>
 
