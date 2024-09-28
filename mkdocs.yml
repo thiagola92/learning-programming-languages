@@ -84,6 +84,38 @@ nav:
       - project_management/layout/go.md
       - project_management/layout/python.md
       - project_management/layout/rust.md
+  - Data Types:
+    - data_types/index.md
+    - Char:
+      - data_types/char/c.md
+    - Int:
+      - data_types/int/c.md
+    - Float:
+      - data_types/float/c.md
+    - Enum:
+      - data_types/enum/c.md
+    - Array:
+      - data_types/array/c.md
+    - Union:
+      - data_types/union/c.md
+    - Struct:
+      - data_types/struct/c.md
+  - Data Structures:
+    - data_structures/index.md
+    - Tagged Union:
+      - data_structures/tagged_union/c.md
+    - Slice:
+      - data_structures/slice/c.md
+    - List:
+      - data_structures/list/c.md
+    - Stack:
+      - data_structures/stack/c.md
+    - Queue:
+      - data_structures/queue/c.md
+    - Hash Map:
+      - data_structures/hash_map/c.md
+    - Tree:
+      - data_structures/tree/c.md
   - How to work with X:
     - how_to_work_with_x/index.md
     - Print & Scan:

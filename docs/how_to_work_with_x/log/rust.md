@@ -17,7 +17,7 @@ use std::{fs::OpenOptions, io::Write};
 struct Logger;
 
 impl Log for Logger {
-    fn enabled(&self, _: &log::Metadata) -> bool {
+    fn enabled(&self, metadata: &log::Metadata) -> bool {
         return true;
     }
 
