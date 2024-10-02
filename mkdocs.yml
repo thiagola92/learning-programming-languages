@@ -86,20 +86,46 @@ nav:
       - project_management/layout/rust.md
   - Data Types:
     - data_types/index.md
-    - Char:
-      - data_types/char/c.md
+    - Bool:
+      - data_types/bool/c.md
+      - data_types/bool/go.md
+      - data_types/bool/python.md
+      - data_types/bool/rust.md
     - Int:
       - data_types/int/c.md
+      - data_types/int/go.md
+      - data_types/int/python.md
+      - data_types/int/rust.md
     - Float:
       - data_types/float/c.md
+      - data_types/float/go.md
+      - data_types/float/python.md
+      - data_types/float/rust.md
+    - Char:
+      - data_types/char/c.md
+      - data_types/char/go.md
+      - data_types/char/python.md
+      - data_types/char/rust.md
     - Enum:
       - data_types/enum/c.md
+      - data_types/enum/go.md
+      - data_types/enum/python.md
+      - data_types/enum/rust.md
     - Array:
       - data_types/array/c.md
+      - data_types/array/go.md
+      - data_types/array/python.md
+      - data_types/array/rust.md
     - Union:
       - data_types/union/c.md
+      - data_types/union/go.md
+      - data_types/union/python.md
+      - data_types/union/rust.md
     - Struct:
       - data_types/struct/c.md
+      - data_types/struct/go.md
+      - data_types/struct/python.md
+      - data_types/struct/rust.md
   - Data Structures:
     - data_structures/index.md
     - Tagged Union:
