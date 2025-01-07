@@ -122,7 +122,7 @@ union {
 
 É um tipo de dado composto por outros tipos de dados.  
 
-O tamanho do espaço de memória terá que ser a soma de cada que compõe a struct.   
+O espaço de memória ocupado pela struct é a soma de cada tipo que a compõe.  
 
 ```
 struct {

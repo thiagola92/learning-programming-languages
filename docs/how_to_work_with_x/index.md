@@ -85,6 +85,17 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 - List
 - Create
 
+## Memory
+
+Seção que fala sobre como a linguagem se comporta em relação a armazenamento de dados na memória ([heap](https://en.wikipedia.org/wiki/Memory_management#HEAP)).  
+
+- Alocar
+- Desalocar
+
+!!! note
+
+    Não confundir com dispositivos de armazenamento como HDD/SSD, onde os dados se persistem após o corte de energia.  
+
 ## Process
 
 - Fork

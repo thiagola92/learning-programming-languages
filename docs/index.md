@@ -1,17 +1,8 @@
 # Learning Programming Languages
 
-O problema é que eu já sei como fazer X na linguagem Y, mas queria fazer o mesmo na linguagem Z.  
+Conjunto de informações básicas sobre diversas linguagens de programação.  
 
-Dependendo da linguagem Z, eu talvez tenha que abstrair ou concretizar conceitos de computação. Por exemplo:  
-
-- Controle de memória
-    - Free? Garbage collector? Reference counted? Borrowing?
-- Tipagem
-    - Forçada? Opcional? Inexistente?
-- Stack & Heap
-    - Importa? Fora do seu controle?
-
-No final a idéia é a mesma do [Learn X in Y minutes](https://learnxinyminutes.com/), reunir o conhecimento de diversas linguagens em um local.  
+Idéia parecida com [Learn X in Y minutes](https://learnxinyminutes.com/).  
 
 ## Notes
 
