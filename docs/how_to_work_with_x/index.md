@@ -80,7 +80,7 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 
     A saída e entrada padrão são arquivos, então podemos utilizar estes métodos para escrever na saída/entrada padrão.  
 
-??? info "File Permission"
+??? info "File Permissions"
 
     Arquivos possuem um controle de permissões básico para limitar como indíviduos podem utiliza-lo. Nove bits são utilizados para este controle:  
 
@@ -158,15 +158,27 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 
 Seção que fala sobre as ações mais comuns em um diretório:  
 
-- **Create**: Criar arquivo em um diretório
-- **List**: Listar arquivos de um diretório
-- **Remove**: Remover arquivo de um diretório
+- **Create**: Criar um diretório
+- **List**: Listar um diretório
+- **Remove**: Remover um diretório
 
-!!! note
+??? info "Directory Permissions"
 
-    > "Everything is file"
+    > "Everything is a file"
 
     Diretórios são arquivos ([inodes](https://man7.org/linux/man-pages/man7/inode.7.html)) com informação de outros arquivos, única diferença é que uma abstração foi criada para você interagir com eles de forma segura.  
+
+    Isto quer dizer que possui a mesma lógica de **File Permissions** vista na seção acima, tirando que pastas não podem ser executadas então o bit **execute** troca de significado para **search**.  
+
+    ```
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+    |           owner          |           group          |          others          |
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+    | bit 1  | bit 2  | bit 3  | bit 4  | bit 5  | bit 6  | bit 7  | bit 8  | bit 9  |
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+    | READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH |
+    +--------+--------+--------+--------+--------+--------+--------+--------+--------+
+    ```
 
 ## Memory
 
