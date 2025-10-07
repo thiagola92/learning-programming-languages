@@ -1,6 +1,6 @@
 # Python
 
-??? info "Not Imposed"
+??? abstract "Not Imposed"
 
     A linguagem deixa importar código de arquivos sem ligar para a localização deles. Por exemplo:
     

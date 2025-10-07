@@ -57,9 +57,9 @@ Seção que fala sobre duas ações clássicas de se aprender em programação:
 - **Print**: Escrever um conteúdo na saída padrão (`stdout`)
 - **Scan**: Ler um conteúdo na entrada padrão (`stdin`)
 
-!!! info
+!!! note
 
-    É importante entender que a princípio tudo lido e escrito são bytes, apenas dentro do seu programa que possuem um tipo específico.  
+    É bom saber que tudo lido e escrito são bytes, apenas dentro do seu programa que possuem um tipo específico.  
 
     - Formatted
         - **Print**: Transformamos uma devida variável em bytes para que ela seja exibida na tela
@@ -78,23 +78,102 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 
 !!! note
 
-    No linux a saída e entrada padrão são arquivos, então pode se utilizar estes métodos para escrever na saída/entrada padrão.  
+    A saída e entrada padrão são arquivos, então podemos utilizar estes métodos para escrever na saída/entrada padrão.  
+
+??? info "File Permission"
+
+    Arquivos possuem um controle de permissões básico para limitar como indíviduos podem utiliza-lo. Nove bits são utilizados para este controle:  
+
+    ```
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    ```
+
+    Estes 9 bits são divididos entre 3 tipos de usuários, cada um com 3 bits que dizem o que eles podem fazer com aquele arquivo:  
+
+    ```
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    |         owner         |         group         |        others         |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    ```
+
+    - **Owner**: É o atual dono do arquivo (não necessariamente quem criou o arquivo).  
+    - **Group**: O seu computador pode ter diversos usuários (imagine um computador para a família inteira) e é possível categorizar todos juntos em um grupo para facilmente dar permissão do arquivo para eles. É importante eu ressaltar que um usuário pode estar em diversos grupos.    
+    - **Others**: Qualquer usuário que não tenha caido dentro dos tipos acima.  
+
+    O primeiro bit de cada tipo de usuário representa **read** e diz se aquele tipo de usuário pode ler o arquivo ou não. Se aquele bit estiver 1, então ele pode ler.  
+
+    ```
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    |         owner         |         group         |        others         |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | READ  |       |       | READ  |       |       | READ  |       |       |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    ``` 
+
+    O segundo bit de cada tipo de usuário representa **write** e diz se aquele tipo de usuário pode escrever no arquivo ou não. Se aquele bit estiver 1, então ele pode escrever.  
+
+    ```
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    |         owner         |         group         |        others         |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | READ  | WRITE |       | READ  | WRITE |       | READ  | WRITE |       |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    ``` 
+
+    O terceiro bit de cada tipo de usuário representa **execute** e diz se aquele tipo de usuário pode executar o arquivo ou não. Se aquele bit estiver 1, então ele pode executar.  
+
+    ```
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    |         owner         |         group         |        others         |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    | READ  | WRITE | EXEC  | READ  | WRITE | EXEC  | READ  | WRITE | EXEC  |
+    +-------+-------+-------+-------+-------+-------+-------+-------+-------+
+    ```
+
+    Se eu te mostrasse os bits **`111 100 000`** você conseguiria notar que permissão cada tipo de usuário teria sobre o arquivo? (1)  
+    { .annotate }  
+
+    1.  **Owner** can read, write, execute  
+        **Group** can read  
+        **Others** can't do anything  
+    
+    É muito normal utilizar números na base 8 (octal) para representar essas permissões. O exemplo anterior seria escrito como **`740`** (1).  
+    { .annotate }  
+
+    1.  111 --> 7  
+        100 --> 4  
+        000 --> 0  
 
 ## Directory
 
-- List
-- Create
+Seção que fala sobre as ações mais comuns em um diretório:  
 
-## Memory
-
-Seção que fala sobre como a linguagem se comporta em relação a armazenamento de dados na memória ([heap](https://en.wikipedia.org/wiki/Memory_management#HEAP)).  
-
-- Alocar
-- Desalocar
+- **Create**: Criar arquivo em um diretório
+- **List**: Listar arquivos de um diretório
+- **Remove**: Remover arquivo de um diretório
 
 !!! note
 
-    Não confundir com dispositivos de armazenamento como HDD/SSD, onde os dados se persistem após o corte de energia.  
+    > "Everything is file"
+
+    Diretórios são arquivos ([inodes](https://man7.org/linux/man-pages/man7/inode.7.html)) com informação de outros arquivos, única diferença é que uma abstração foi criada para você interagir com eles de forma segura.  
+
+## Memory
+
+Seção que fala sobre como a linguagem se comporta em relação a armazenamento de dados na memória RAM ([heap](https://en.wikipedia.org/wiki/Memory_management#HEAP)).  
+
+- Alocar
+- Desalocar
 
 ## Process
 
@@ -121,7 +200,7 @@ Note que não existe regra de onde registrar estes eventos, nós poderiamos:
 
 E poderiamos fazer em múltiplos deles ao mesmo tempo.  
 
-!!! info
+??? info "Stdin, Stdout, Stderr"
 
     Por padrão programas possuem 3 fluxo de dados:
 
@@ -192,11 +271,11 @@ Basicamente existem dois tipos de travas:
     - Apenas um processo/thread pode possuir está trava em um determinado tempo
     - É uma maneira de sinalizar que o arquivo pode estar sendo modificado e leitura dele pode trazer informações incorretas
 
-!!! warning
+??? info "Advisory Lock"
 
     Linux **não** implementa "Mandatory locking", ou seja, estas travas não proibem outros processos/threads de alterarem os arquivos.  
 
-    Linux implementa "Advisory locks", ou seja, é uma cortesia dos processos/threads verificarem se o arquivo está travado ou não antes de acessa-lo.  
+    Porém implementa "Advisory locks", ou seja, é uma cortesia dos processos/threads verificarem se o arquivo está travado ou não antes de acessa-lo.  
 
     Em outras palavras:
 

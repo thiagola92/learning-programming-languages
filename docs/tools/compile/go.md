@@ -52,7 +52,7 @@ Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no
 
 ## Compile when you have files in subdirectories
 
-!!! warning
+!!! note
     
     Está parte conta que você tenha alguns conhecimentos de assuntos futuros.
 

@@ -1,6 +1,6 @@
 # Python
 
-??? info "Official"
+??? abstract "Official"
 
     Este debugger é mantido pelos criadores oficiais da linguagem.
 

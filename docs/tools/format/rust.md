@@ -1,6 +1,6 @@
 # Rust
 
-??? info "Official"
+??? abstract "Official"
 
     Este formatador é mantido pelos criadores oficiais da linguagem.
 

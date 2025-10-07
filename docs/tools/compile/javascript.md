@@ -1,6 +1,6 @@
 # JavaScript
 
-??? info "Third Party"
+??? abstract "Third Party"
 
     Este compilador não é mantido pelos criadores oficiais da linguagem.
 

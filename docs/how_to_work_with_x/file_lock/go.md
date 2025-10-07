@@ -1,6 +1,6 @@
 # Go
 
-??? info "Third Party"
+??? abstract "Third Party"
 
     Esta funcionalidade não é mantido pelos criadores oficiais da linguagem.
 

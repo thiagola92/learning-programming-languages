@@ -17,17 +17,9 @@ Então não se apegue a detalhes, o foco é executar a linguagem.
 
     Em casos de compilação, pode ser necessário executar o executável manualmente. Exemplo:  
     
-    === "Linux / Mac"
-        
-        ```
-        ./main
-        ```
-    
-    === "Windows"
-        
-        ```
-        .\main
-        ```
+    ```
+    ./main
+    ```
 
 ## Format
 
@@ -69,13 +61,13 @@ Seção que fala sobre o gerenciador de pacotes da linguagem.
 
 Gerenciadores de pacotes mantém uma lista de módulos/pacotes/bibliotecas a serem importados para o seu projeto.  
 
-!!! note
+??? info "Module, Package, Library"
 
-    Existem 3 termos utilizados quando estamos falando de código a ser importado por outros:  
+    Estes 3 termos são utilizados quando estamos falando de código a ser importado por outros:  
 
-    - Módulo: Arquivo contendo código
-    - Pacote: Conjunto de módulos dentro do mesmo diretório
-    - Biblioteca: Conjunto de pacotes e módulos
+    - **Module**: Arquivo contendo código
+    - **Package**: Conjunto de módulos dentro do mesmo diretório
+    - **Library**: Conjunto de pacotes e módulos
 
 ## Version Manager
 

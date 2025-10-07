@@ -1,6 +1,6 @@
 # C
 
-??? info "Third Party"
+??? abstract "Third Party"
     
     Está linguagem não inclue uma biblioteca de log oficial.  
 
@@ -31,7 +31,7 @@ int main() {
 
 !!! note
 
-    Em Linux, irá adicionar o log a um dos arquivos:  
+    No Linux, irá adicionar o log a um dos arquivos:  
 
     - `/var/log/syslog`
     - `/var/log/messages`

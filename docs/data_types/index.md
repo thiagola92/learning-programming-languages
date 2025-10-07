@@ -28,11 +28,11 @@ Atualmente UTF-8 é encode mais recomendado por conseguir representar um grafema
 
 Recomendação de video: [https://www.youtube.com/watch?v=ut74oHojxqo](https://www.youtube.com/watch?v=ut74oHojxqo)  
 
-!!! note
+??? info "Size of a byte"
 
     Atualmente é muito comum assumir que um char é 1 byte (8 bits) pois foi o padrão adotado por um longo periodo de tempo (ASCII).  
     
-    Mas durante o tempo de vida dos computadores, byte não foi sempre a medida mínima de memória, já tivemos diversos tamanhos de bits e eles também possuiam o conceito de caracteres.  
+    Mas durante o tempo de vida dos computadores, 8 bits não foi sempre a medida mínima de memória, já tivemos diversos tamanhos e eles também eram usados para representar caracteres.  
 
     Tivemos 6 bits, 5 bits, 4 bits... Até o famoso padrão de encode ASCII começou como 7 bits e foi adaptado para 8 bits.  
 
@@ -132,7 +132,7 @@ struct {
 }
 ```
 
-!!! question "Class"
+??? info "Class"
 
     Considero structs em esteroide, pois possuem o mesmo conceito de armazenar diversos tipos de dados em conjunto porém adicionam outras ideias como: herança, encapsulamento, ...  
 

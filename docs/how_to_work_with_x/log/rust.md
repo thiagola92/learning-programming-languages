@@ -1,6 +1,6 @@
 # Rust
 
-??? info "Official"
+??? abstract "Official"
 
     Esta biblioteca é mantida pelos criadores oficiais da linguagem.
 

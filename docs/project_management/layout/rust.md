@@ -1,6 +1,6 @@
 # Rust
 
-??? info "Imposed"
+??? abstract "Imposed"
 
     A linguagem apenas aceita importar código de arquivos que seguiram a regra da linguagem. Por exemplo:  
     

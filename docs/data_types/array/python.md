@@ -1,6 +1,6 @@
 # Python
 
-??? info "Adaptation"
+??? abstract "Adaptation"
 
     Esta linguagem possui uma adaptação do conceito.
 

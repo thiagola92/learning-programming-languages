@@ -18,9 +18,7 @@ A linguagem em si conta que você está executando o código no navegador mas es
 
 **TLDR**: Não existe instalador oficial da linguagem. Utilize ela no navegador ou instale um runtime para executa-la localmente.  
 
-## Linux
-
-### Node.js
+## Node.js
 
 === "Oficial"
 
@@ -32,7 +30,7 @@ A linguagem em si conta que você está executando o código no navegador mas es
     sudo apt install nodejs
     ```
 
-### Deno
+## Deno
 
 === "Oficial"
 
@@ -40,7 +38,7 @@ A linguagem em si conta que você está executando o código no navegador mas es
     curl -fsSL https://deno.land/install.sh | sh
     ```
 
-### Bun
+## Bun
 
 === "Oficial"
 

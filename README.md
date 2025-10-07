@@ -5,3 +5,8 @@ Utilizando [pipx](https://pipx.pypa.io/stable/installation/) para evitar conflit
 ```
 pipx install mkdocs-material --include-deps
 ```
+
+## preview
+```
+mkdocs serve
+```

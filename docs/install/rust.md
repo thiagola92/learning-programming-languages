@@ -1,7 +1,5 @@
 # Rust
 
-## Linux
-
 === "Oficial"
     
     A linha seguinte baixa o script de instalação e o executa:  

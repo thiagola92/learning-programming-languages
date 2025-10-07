@@ -1,6 +1,6 @@
 # Python
 
-??? info "Third Party"
+??? abstract "Third Party"
 
     Este gerenciador de pacotes não é mantido pelos criadores oficiais da linguagem.
 

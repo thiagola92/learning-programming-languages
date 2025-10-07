@@ -1,7 +1,5 @@
 # Go
 
-## Linux
-
 === "Oficial"
     
     Oficialmente não existe um instalador, você selecionaria o binário correto para o seu OS e seguiria as instruções:  
