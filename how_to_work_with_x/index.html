@@ -3344,6 +3344,29 @@
   
   
     <li class="md-nav__item">
+      <a href="file/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="file/go/" class="md-nav__link">
         
   
@@ -3451,6 +3474,29 @@
             Directory
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="directory/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -3574,6 +3620,29 @@
   
   
     <li class="md-nav__item">
+      <a href="process/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="process/go/" class="md-nav__link">
         
   
@@ -3689,6 +3758,29 @@
   
   
     <li class="md-nav__item">
+      <a href="thread/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="thread/go/" class="md-nav__link">
         
   
@@ -3796,6 +3888,29 @@
             Network
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="network/c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    C
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -4131,7 +4246,7 @@
   
   
   <span class="md-ellipsis">
-    Rust
+    Go
     
   </span>
   
@@ -4365,7 +4480,7 @@
 <p>A saída e entrada padrão são arquivos, então podemos utilizar estes métodos para escrever na saída/entrada padrão.  </p>
 </div>
 <details class="info">
-<summary>File Permission</summary>
+<summary>File Permissions</summary>
 <p>Arquivos possuem um controle de permissões básico para limitar como indíviduos podem utiliza-lo. Nove bits são utilizados para este controle:  </p>
 <div class="highlight"><pre><span></span><code>+-------+-------+-------+-------+-------+-------+-------+-------+-------+
 | bit 1 | bit 2 | bit 3 | bit 4 | bit 5 | bit 6 | bit 7 | bit 8 | bit 9 |
@@ -4426,17 +4541,54 @@
 <h2 id="directory">Directory</h2>
 <p>Seção que fala sobre as ações mais comuns em um diretório:  </p>
 <ul>
-<li><strong>Create</strong>: Criar arquivo em um diretório</li>
+<li><strong>Create</strong>: Criar um diretório</li>
 <li><strong>List</strong>: Listar arquivos de um diretório</li>
-<li><strong>Remove</strong>: Remover arquivo de um diretório</li>
+<li><strong>Remove</strong>: Remover um diretório</li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<details class="info">
+<summary>Directory Permissions</summary>
 <blockquote>
-<p>"Everything is file"</p>
+<p>"Everything is a file"</p>
 </blockquote>
 <p>Diretórios são arquivos (<a href="https://man7.org/linux/man-pages/man7/inode.7.html">inodes</a>) com informação de outros arquivos, única diferença é que uma abstração foi criada para você interagir com eles de forma segura.  </p>
-</div>
+<p>Isto quer dizer que possui a mesma lógica de <strong>File Permissions</strong> vista na seção acima, tirando que pastas não podem ser executadas então o bit <strong>execute</strong> troca de significado para <strong>search</strong>.  </p>
+<div class="highlight"><pre><span></span><code>+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+|           owner          |           group          |          others          |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+| bit 1  | bit 2  | bit 3  | bit 4  | bit 5  | bit 6  | bit 7  | bit 8  | bit 9  |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+| READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH |
++--------+--------+--------+--------+--------+--------+--------+--------+--------+
+</code></pre></div>
+<p>O que cada combinação de permissões te deixa fazer:  </p>
+<ul>
+<li><code>---</code>: Não pode interagir com o diretório</li>
+<li><code>r--</code>: Permite descobrir os arquivos do diretório<ul>
+<li><code>ls &lt;directory&gt;</code></li>
+</ul>
+</li>
+<li><code>-w-</code>: ???</li>
+<li><code>--x</code>: Permite acessar o diretório e subdiretórios<ul>
+<li><code>cd &lt;directory&gt;</code></li>
+<li><code>ls &lt;directory&gt;/&lt;subdirectory&gt;</code></li>
+</ul>
+</li>
+<li><code>rw-</code>: ???</li>
+<li><code>r-x</code>: Permite descobrir os arquivos do diretório e suas metadatas<ul>
+<li><code>ls -l &lt;directory&gt;</code></li>
+</ul>
+</li>
+<li><code>-wx</code>: Permite modificar arquivos do diretório<ul>
+<li><code>echo "example" &gt; &lt;directory&gt;/file</code></li>
+<li><code>touch &lt;directory&gt;/file</code></li>
+<li><code>mv &lt;directory&gt;/file file</code></li>
+<li>`rm <directory>/file</li>
+<li><code>cp &lt;directory&gt;/file file2</code></li>
+</ul>
+</li>
+<li><code>rwx</code>: Permite tudo</li>
+</ul>
+</details>
 <h2 id="memory">Memory</h2>
 <p>Seção que fala sobre como a linguagem se comporta em relação a armazenamento de dados na memória RAM (<a href="https://en.wikipedia.org/wiki/Memory_management#HEAP">heap</a>).  </p>
 <ul>
