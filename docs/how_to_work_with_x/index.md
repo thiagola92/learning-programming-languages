@@ -159,7 +159,7 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 Seção que fala sobre as ações mais comuns em um diretório:  
 
 - **Create**: Criar um diretório
-- **List**: Listar um diretório
+- **List**: Listar arquivos de um diretório
 - **Remove**: Remover um diretório
 
 ??? info "Directory Permissions"
@@ -179,6 +179,27 @@ Seção que fala sobre as ações mais comuns em um diretório:
     | READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH | READ   | WRITE  | SEARCH |
     +--------+--------+--------+--------+--------+--------+--------+--------+--------+
     ```
+
+    O que cada combinação de permissões te deixa fazer:  
+
+    - `---`: Não pode interagir com o diretório
+    - `r--`: Permite descobrir os arquivos do diretório
+        - `ls <directory>`
+    - `-w-`: ???
+    - `--x`: Permite acessar o diretório e subdiretórios
+        - `cd <directory>`
+        - `ls <directory>/<subdirectory>`
+    - `rw-`: ???
+    - `r-x`: Permite descobrir os arquivos do diretório e suas metadatas
+        - `ls -l <directory>`
+    - `-wx`: Permite modificar arquivos do diretório
+        - `echo "example" > <directory>/file`
+        - `touch <directory>/file`
+        - `mv <directory>/file file`
+        - `rm <directory>/file
+        - `cp <directory>/file file2`
+    - `rwx`: Permite tudo
+
 
 ## Memory
 
