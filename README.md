@@ -8,5 +8,5 @@ pipx install mkdocs-material --include-deps
 
 ## preview
 ```
-mkdocs serve
+mkdocs serve --livereload
 ```

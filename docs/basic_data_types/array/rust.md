@@ -20,7 +20,7 @@
     
         É possível inicializar todos com um mesmo valor para simular o comportamento de outras linguagens (inicializar com zeros).  
 
-=== "Set"
+=== "Set 1"
 
     ```rust
     fn main() {
@@ -37,6 +37,8 @@
     example[1] = 2
     example[2] = 3
     ```
+
+=== "Set 2"
 
     Inserir o mesmo valor em todas posições.  
 

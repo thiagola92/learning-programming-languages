@@ -6,7 +6,7 @@
 
 ## List
 
-List é uma alternativa para arrays em algumas linguagens.  
+É uma alternativa para arrays.  
 
 ```python
 from array import array

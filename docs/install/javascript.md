@@ -30,6 +30,12 @@ A linguagem em si conta que você está executando o código no navegador mas es
     sudo apt install nodejs
     ```
 
+=== "Fedora"
+
+    ```
+    sudo dnf install nodejs;
+    ```
+
 ## Deno
 
 === "Oficial"

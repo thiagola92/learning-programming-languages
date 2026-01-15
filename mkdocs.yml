@@ -33,6 +33,7 @@ nav:
     - install/javascript.md
     - install/python.md
     - install/rust.md
+    - install/zig.md
   - Tools:
     - tools/index.md
     - Compile:
@@ -40,11 +41,13 @@ nav:
       - tools/compile/javascript.md
       - tools/compile/python.md
       - tools/compile/rust.md
+      - tools/compile/zig.md
     - Format:
       - tools/format/go.md
       - tools/format/javascript.md
       - tools/format/python.md
       - tools/format/rust.md
+      - tools/format/zig.md
     - Debug:
       - tools/debug/go.md
       - tools/debug/javascript.md
@@ -55,6 +58,7 @@ nav:
       - tools/lsp/javascript.md
       - tools/lsp/python.md
       - tools/lsp/rust.md
+      - tools/lsp/zig.md
     - Package Manager:
       - tools/package_manager/index.md
       - Initialize:
@@ -83,48 +87,54 @@ nav:
       - project_management/layout/go.md
       - project_management/layout/python.md
       - project_management/layout/rust.md
-  - Data Types:
-    - data_types/index.md
+  - Basic Data Types:
+    - basic_data_types/index.md
     - Bool:
-      - data_types/bool/c.md
-      - data_types/bool/go.md
-      - data_types/bool/python.md
-      - data_types/bool/rust.md
+      - basic_data_types/bool/c.md
+      - basic_data_types/bool/go.md
+      - basic_data_types/bool/python.md
+      - basic_data_types/bool/rust.md
+      - basic_data_types/bool/zig.md
     - Int:
-      - data_types/int/c.md
-      - data_types/int/go.md
-      - data_types/int/python.md
-      - data_types/int/rust.md
+      - basic_data_types/int/c.md
+      - basic_data_types/int/go.md
+      - basic_data_types/int/python.md
+      - basic_data_types/int/rust.md
+      - basic_data_types/int/zig.md
     - Float:
-      - data_types/float/c.md
-      - data_types/float/go.md
-      - data_types/float/python.md
-      - data_types/float/rust.md
+      - basic_data_types/float/c.md
+      - basic_data_types/float/go.md
+      - basic_data_types/float/python.md
+      - basic_data_types/float/rust.md
+      - basic_data_types/float/zig.md
     - Char:
-      - data_types/char/c.md
-      - data_types/char/go.md
-      - data_types/char/python.md
-      - data_types/char/rust.md
+      - basic_data_types/char/c.md
+      - basic_data_types/char/go.md
+      - basic_data_types/char/python.md
+      - basic_data_types/char/rust.md
+      - basic_data_types/char/zig.md
     - Enum:
-      - data_types/enum/c.md
-      - data_types/enum/go.md
-      - data_types/enum/python.md
-      - data_types/enum/rust.md
+      - basic_data_types/enum/c.md
+      - basic_data_types/enum/go.md
+      - basic_data_types/enum/python.md
+      - basic_data_types/enum/rust.md
+      - basic_data_types/enum/zig.md
     - Array:
-      - data_types/array/c.md
-      - data_types/array/go.md
-      - data_types/array/python.md
-      - data_types/array/rust.md
+      - basic_data_types/array/c.md
+      - basic_data_types/array/go.md
+      - basic_data_types/array/python.md
+      - basic_data_types/array/rust.md
+      - basic_data_types/array/zig.md
     - Union:
-      - data_types/union/c.md
-      - data_types/union/go.md
-      - data_types/union/python.md
-      - data_types/union/rust.md
+      - basic_data_types/union/c.md
+      - basic_data_types/union/go.md
+      - basic_data_types/union/python.md
+      - basic_data_types/union/rust.md
     - Struct:
-      - data_types/struct/c.md
-      - data_types/struct/go.md
-      - data_types/struct/python.md
-      - data_types/struct/rust.md
+      - basic_data_types/struct/c.md
+      - basic_data_types/struct/go.md
+      - basic_data_types/struct/python.md
+      - basic_data_types/struct/rust.md
   - How to work with X:
     - how_to_work_with_x/index.md
     - Print & Scan:

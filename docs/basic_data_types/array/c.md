@@ -61,3 +61,13 @@
     example[1] = 2
     example[2] = 0
     ```
+
+    !!! warning
+
+        O array precisa ter espaço para receber todos os valores.  
+
+        O seguinte irá gerar erro:  
+
+        ```c
+        int example[3] = {1, 2, 3, 4};
+        ```

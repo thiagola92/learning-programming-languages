@@ -17,3 +17,15 @@
     !!! note
         
         Ubuntu armazena o binário em `/usr/bin` então não precisa adicionar no path.  
+
+=== "Fedora"
+    
+    Mantido pelos desenvolvedores do Fedora:  
+
+    ```
+    sudo dnf install golang;
+    ```
+    
+    !!! note
+        
+        Fedora armazena o binário em `/usr/bin` então não precisa adicionar no path.  
