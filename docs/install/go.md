@@ -13,7 +13,7 @@
     sudo apt install golang
     ```
     
-    !!! note
+    ??? note "Binary location"
         
         Ubuntu armazena o binário em `/usr/bin` então não precisa adicionar no path.  
 
@@ -25,6 +25,6 @@
     sudo dnf install golang;
     ```
     
-    !!! note
+    ??? note "Binary location"
         
         Fedora armazena o binário em `/usr/bin` então não precisa adicionar no path.  

@@ -5,9 +5,7 @@
 
 A linguagem recomenda a utilização de [GDB](https://www.sourceware.org/gdb/) e [LLDB](https://lldb.llvm.org/index.html).  
 
+Para evitar repetição de informação, a utilização destes debuggers se encontram em [C](/tools/debug/c.md).  
+
 *[GDB]: GNU Debugger
 *[LLDB]: Low-Level Debugger
-
-!!! note
-    
-    Se eu for escrever mais sobre o assunto, irei escrever na parte da linguagem [C](/tools/debug/c.md) para evitar repetição.

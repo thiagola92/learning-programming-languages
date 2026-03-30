@@ -6029,8 +6029,8 @@
 </span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="p">)</span>
 </span></code></pre></div>
 <p>O arquivo <code>go.mod</code> apenas existe no pacote principal pois ele define o início de um módulo (um conjunto de pacotes que existem para se complementar).  </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<details class="note">
+<summary>Clear root</summary>
 <p>Utilizando está lógica é possível diminuir a quantidade de arquivos na raiz do seu projeto. Por exemplo, deixando apenas o arquivo <code>main.go</code> na raiz:  </p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>.
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>├── .gitignore
@@ -6042,7 +6042,7 @@
 </span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    ├── file1.go
 </span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    └── ...
 </span></code></pre></div>
-</div>
+</details>
 <h2 id="private">Private<a class="headerlink" href="#private" title="Permanent link">&para;</a></h2>
 <p>Diretório <code>internal</code> é especial pois a linguagem não permite que outros módulos importem dele.  </p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>.

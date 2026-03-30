@@ -12,7 +12,7 @@ Mas os dois não são excludentes, pois é possível compilar parcialmente ou co
 
 Então não se apegue a detalhes, o foco é executar a linguagem.  
 
-!!! note
+??? note "Manual execution"
 
     Em casos de compilação, pode ser necessário executar o executável manualmente. Exemplo:  
     
@@ -30,7 +30,7 @@ Seção que fala sobre o debugger da linguagem.
 
 Debuggers permitem os programadores acompanharem a execução de um código a fim de análisar ou descobrir erros.  
 
-!!! note
+??? note "Reuse debuggers"
 
     Nem todas as linguagens possuem um debugger próprio, algumas recomendam utilizar debuggers já existentes ou criados pela comunidade. Por exemplo, é possível usar [GDB](https://en.wikipedia.org/wiki/GNU_Debugger) e [LLDB](https://en.wikipedia.org/wiki/LLDB_(debugger)) com a linguagem Rust.  
     
@@ -69,7 +69,7 @@ Seção que fala sobre gerenciador de versão para a linguagem.
 
 Gerenciadores de versão permitem a alteração da versão da linguagem dentro da máquina do desenvolvedor.  
 
-!!! tip
+??? tip "Why is important?"
 
     Importante se for preciso trabalhar em múltiplos projetos que utilizam versões diferente da linguagem.  
 

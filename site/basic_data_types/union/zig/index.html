@@ -5989,10 +5989,10 @@
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>example.field1 = 1
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>example.field2 = 5.5
 </span></code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<details class="warning">
+<summary>Current type being used</summary>
 <p>Só é possível identificar o campo utilizado quando usando tagged unions.  </p>
-</div>
+</details>
 <h2 id="tagged-union">Tagged Union<a class="headerlink" href="#tagged-union" title="Permanent link">&para;</a></h2>
 <p>Passando um enum durante a criação de uma union, fará com que os campos do enum sejam utilizados como tag para a union.  </p>
 <div class="language-zig highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kr">const</span><span class="w"> </span><span class="n">print</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">@import</span><span class="p">(</span><span class="s">&quot;std&quot;</span><span class="p">).</span><span class="n">debug</span><span class="p">.</span><span class="n">print</span><span class="p">;</span>

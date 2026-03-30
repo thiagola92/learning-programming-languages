@@ -46,10 +46,12 @@ fn main() {
 INFO - Example
 ```
 
-!!! note
+??? warning "Bad implementation"
 
-    Está implementação não é recomendada pois irá abrir o arquivo sempre que for escrever.  
-    Uma recomendação seria abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  
+    A implementação acima não é recomendada pois irá abrir o arquivo sempre que for escrever.  
+    Seria melhor abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  
+
+    **TODO**: Improve example and remove this warning.
 
 ## Stderr
 ```rust

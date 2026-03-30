@@ -49,10 +49,6 @@ Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no
 ```
 
 ## Compile when you have files in subdirectories
-!!! note
-    
-    Está parte conta que você tenha alguns conhecimentos de assuntos futuros.
-
 A linguagem permite referenciar subpacotes do módulo, ou seja, se tratar seu projeto como um módulo então poderá importar código dos subdiretórios.  
 
 ``` title="Project Layout"

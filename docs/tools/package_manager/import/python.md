@@ -10,7 +10,7 @@ A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).
 pip install -r requirements.txt
 ```
 
-!!! note
+??? note "File name"
 
     Pip não obriga que as dependências estejam no arquivo `requirements.txt` mas é o local mais comum de se armazenar quando utilizando este gerenciador.
 

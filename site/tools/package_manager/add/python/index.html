@@ -5997,14 +5997,14 @@
 <h2 id="add-with-pip">Add with Pip<a class="headerlink" href="#add-with-pip" title="Permanent link">&para;</a></h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip install &lt;package_name&gt;
 </span></code></pre></div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<details class="warning">
+<summary>Pip doesn't create dependency file automatically</summary>
 <p>Pip não armazena suas dependências automaticamentes em um arquivo do seu projeto, então é necessário criar o arquivo de dependências manualmente.  </p>
 <p>O comando <code>pip freeze</code> é utilizado para listar as dependências instaladas até o momento.  </p>
 <p>Utilizando o seguinte prompt podemos criar/atualizar o arquivo de dependências (normalmente chamado de <code>requirements.txt</code>):  </p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pip freeze &gt; requirements.txt
 </span></code></pre></div>
-</div>
+</details>
 <h2 id="add-with-pdm">Add with PDM<a class="headerlink" href="#add-with-pdm" title="Permanent link">&para;</a></h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pdm add &lt;package_name&gt;
 </span></code></pre></div>

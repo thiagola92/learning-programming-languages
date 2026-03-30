@@ -23,7 +23,7 @@
     }
     ```
 
-!!! note
+??? note "Scan stop at white characters"
 
     Importante saber que `scanf()` utiliza caracteres brancos (espaço, tab, newline, etc) para determinar o fim do scan de um elemento.  
 

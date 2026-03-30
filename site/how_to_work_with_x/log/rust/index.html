@@ -6010,11 +6010,12 @@
 </span></code></pre></div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>INFO - Example
 </span></code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Está implementação não é recomendada pois irá abrir o arquivo sempre que for escrever.<br />
-Uma recomendação seria abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  </p>
-</div>
+<details class="warning">
+<summary>Bad implementation</summary>
+<p>A implementação acima não é recomendada pois irá abrir o arquivo sempre que for escrever.<br />
+Seria melhor abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  </p>
+<p><strong>TODO</strong>: Improve example and remove this warning.</p>
+</details>
 <h2 id="stderr">Stderr<a class="headerlink" href="#stderr" title="Permanent link">&para;</a></h2>
 <div class="language-rust highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">use</span><span class="w"> </span><span class="n">log</span><span class="p">::</span><span class="n">info</span><span class="p">;</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>

@@ -10,7 +10,7 @@ A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).
 pip install <package_name>
 ```
 
-!!! warning
+??? warning "Pip doesn't create dependency file automatically"
 
     Pip não armazena suas dependências automaticamentes em um arquivo do seu projeto, então é necessário criar o arquivo de dependências manualmente.  
 

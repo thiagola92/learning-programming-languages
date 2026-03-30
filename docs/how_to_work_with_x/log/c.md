@@ -7,7 +7,7 @@
 ## Syslog
 Em sistemas operacionais que seguem os padrões POSIX, existe uma biblioteca para mandar mensagens ao logger do seus sistema operacional: [`syslog.h`](https://en.wikipedia.org/wiki/C_POSIX_library).  
 
-!!! warning
+??? warning "Mix logs"
 
     Estes logs ficaram misturados com logs de outros programas que usarem está biblioteca.  
 
@@ -27,9 +27,9 @@ int main() {
 2024-09-22T19:15:03.375012-03:00 username main.out: Example
 ```
 
-!!! note
+??? note "Log file"
 
-    No Linux, irá adicionar o log a um dos arquivos:  
+    Irá adicionar o log a um dos arquivos:  
 
     - `/var/log/syslog`
     - `/var/log/messages`
@@ -53,6 +53,6 @@ int main() {
 main.out: Example
 ```
 
-!!! note
+??? note "Log file"
 
     Não deixará de loggar em `/var/log/syslog` ou `/var/log/messages`.

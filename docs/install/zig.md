@@ -13,6 +13,6 @@
     sudo dnf install zig;
     ```
     
-    !!! note
+    ??? note "Binary location"
         
         Fedora armazena o binário em `/usr/bin` então não precisa adicionar no path.  

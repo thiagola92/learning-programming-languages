@@ -6066,22 +6066,22 @@
 </div>
 </div>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<details class="warning">
+<summary>Error handling</summary>
 <p>Tratamento de erros é importante e não deve ser ignorado no dia-a-dia.  </p>
-</div>
+</details>
 <h2 id="print-scan">Print &amp; Scan<a class="headerlink" href="#print-scan" title="Permanent link">&para;</a></h2>
 <p>Seção que fala sobre duas ações clássicas de se aprender em programação:  </p>
 <ul>
 <li><strong>Print</strong>: Escrever um conteúdo na saída padrão (<code>stdout</code>)</li>
 <li><strong>Scan</strong>: Ler um conteúdo na entrada padrão (<code>stdin</code>)</li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<details class="note">
+<summary>Formatted, Raw, IO</summary>
 <p>É bom saber que tudo lido e escrito são bytes, apenas dentro do seu programa que possuem um tipo específico.  </p>
 <ul>
 <li>Formatted<ul>
-<li><strong>Print</strong>: Transformamos uma devida variável em bytes para que ela seja exibida na tela</li>
+<li><strong>Print</strong>: Transformamos uma devida variável em bytes que melhor represente ela na tela</li>
 <li><strong>Scan</strong>: Definimos o tipo de variável a qual queremos que os bytes consumidos sejam convertidos</li>
 </ul>
 </li>
@@ -6094,17 +6094,17 @@
 </ul>
 </li>
 </ul>
-</div>
+</details>
 <h2 id="file">File<a class="headerlink" href="#file" title="Permanent link">&para;</a></h2>
 <p>Seção que fala sobre as duas ações mais essenciais para arquivos:  </p>
 <ul>
 <li><strong>Read</strong>: Ler o conteúdo de um arquivo</li>
 <li><strong>Write</strong>: Escrever conteúdo em um arquivo</li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>A saída e entrada padrão são arquivos, então podemos utilizar estes métodos para escrever na saída/entrada padrão.  </p>
-</div>
+<details class="note">
+<summary><code>stdin</code>, <code>stdout</code></summary>
+<p>Ambos <code>stdin</code> e <code>stdout</code> são arquivos, então poderiamos utilizar estes métodos para escrever na saída/entrada padrão.  </p>
+</details>
 <details class="info">
 <summary>File Permissions</summary>
 <p>Arquivos possuem um controle de permissões básico para limitar como indíviduos podem utiliza-lo. Nove bits são utilizados para este controle:  </p>
@@ -6243,12 +6243,12 @@
 </ul>
 <p>E poderiamos fazer em múltiplos deles ao mesmo tempo.  </p>
 <details class="info">
-<summary>Stdin, Stdout, Stderr</summary>
+<summary><code>stdin</code>, <code>stdout</code>, <code>stderr</code></summary>
 <p>Por padrão programas possuem 3 fluxo de dados:</p>
 <ul>
-<li><strong>stdin</strong>: Entrada padrão</li>
-<li><strong>stdout</strong>: Saída padrão</li>
-<li><strong>stderr</strong>: Saída de erro padrão</li>
+<li><code>stdin</code>: Entrada padrão</li>
+<li><code>stdout</code>: Saída padrão</li>
+<li><code>stderr</code>: Saída de erro padrão</li>
 </ul>
 <p>Em <a href="#print-scan">Print &amp; Scan</a> vimos comandos para interagir com <code>stdin</code> e <code>stdout</code>, porém logs são conhecidos por interagirem com <code>stderr</code>.  </p>
 <pre class="mermaid"><code>flowchart LR
@@ -6281,12 +6281,12 @@
     program2 --&gt; stdout2
     program2 --&gt; stderr2</code></pre>
 <p>Consequentemente o <code>stderr</code> acaba sendo bom para escrever mensagens de logs, pois essa mensagens acabam não sendo enviadas para o próximo fluxo do programas.  </p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
+<details class="example">
+<summary>Chaining <code>stdout</code> and <code>stdin</code></summary>
 <p><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash</a> faz o link entre <code>stdout</code> de um programa com <code>stdin</code> de outro utilizando o operador <code>|</code>:  </p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>ls -l | grep &quot;file.txt&quot;
 </span></code></pre></div>
-</div>
+</details>
 </details>
 <h2 id="file-lock">File Lock<a class="headerlink" href="#file-lock" title="Permanent link">&para;</a></h2>
 <p>Seção que fala sobre travas para arquivos.  </p>

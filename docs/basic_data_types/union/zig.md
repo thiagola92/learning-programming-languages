@@ -25,7 +25,7 @@ example.field1 = 1
 example.field2 = 5.5
 ```
 
-!!! warning
+??? warning "Current type being used"
 
     Só é possível identificar o campo utilizado quando usando tagged unions.  
 

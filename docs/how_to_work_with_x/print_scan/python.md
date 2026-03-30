@@ -43,7 +43,7 @@
     string = sys.stdin.read(30)
     ```
 
-    !!! warning
+    ??? warning "Always inform quantity"
 
         💀 Se a quantidade de bytes não for passada para `read()`, ele irá ler até a memória da máquina esgotar e travar.  
 

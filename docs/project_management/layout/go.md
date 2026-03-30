@@ -60,7 +60,7 @@ import (
 
 O arquivo `go.mod` apenas existe no pacote principal pois ele define o início de um módulo (um conjunto de pacotes que existem para se complementar).  
 
-!!! note
+??? note "Clear root"
 
     Utilizando está lógica é possível diminuir a quantidade de arquivos na raiz do seu projeto. Por exemplo, deixando apenas o arquivo `main.go` na raiz:  
     

@@ -14,24 +14,22 @@ O package manager da linguagem fornece atalhos para compilar e executar, porém 
 
 === "Compile"
     
-    Compila para um executável localizado em `target/debug/<project_name>`:  
-    
     ```bash
     cargo build
     ```
     
-    !!! note
-    
-        Compila para `target/release/<project_name>` se for release.
+    ??? note "Executable location"
+
+        - Debug: `target/debug/<project_name>`
+        - Release: `target/release/<project_name>`
 
 === "Compile & Execute"
-    
-    Compila para um executável localizado em `target/debug/<project_name>` e o executa:  
     
     ```bash
     cargo run
     ```
     
-    !!! note
-    
-        Compila para `target/release/<project_name>` se for release.
+    ??? note "Executable location"
+
+        - Debug: `target/debug/<project_name>`
+        - Release: `target/release/<project_name>`

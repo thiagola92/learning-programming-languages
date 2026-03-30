@@ -5992,10 +5992,10 @@
 </details>
 <h2 id="syslog">Syslog<a class="headerlink" href="#syslog" title="Permanent link">&para;</a></h2>
 <p>Em sistemas operacionais que seguem os padrões POSIX, existe uma biblioteca para mandar mensagens ao logger do seus sistema operacional: <a href="https://en.wikipedia.org/wiki/C_POSIX_library"><code>syslog.h</code></a>.  </p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<details class="warning">
+<summary>Mix logs</summary>
 <p>Estes logs ficaram misturados com logs de outros programas que usarem está biblioteca.  </p>
-</div>
+</details>
 <h3 id="file">File<a class="headerlink" href="#file" title="Permanent link">&para;</a></h3>
 <div class="language-c highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;sys/syslog.h&gt;</span>
@@ -6008,14 +6008,14 @@
 </span></code></pre></div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>2024-09-22T19:15:03.375012-03:00 username main.out: Example
 </span></code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>No Linux, irá adicionar o log a um dos arquivos:  </p>
+<details class="note">
+<summary>Log file</summary>
+<p>Irá adicionar o log a um dos arquivos:  </p>
 <ul>
 <li><code>/var/log/syslog</code></li>
 <li><code>/var/log/messages</code></li>
 </ul>
-</div>
+</details>
 <h3 id="stderr">Stderr<a class="headerlink" href="#stderr" title="Permanent link">&para;</a></h3>
 <p>Opcionalmente podemos também mandar para <code>stderr</code> se utilizarmos <code>LOG_PERROR</code>.  </p>
 <div class="language-c highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
@@ -6029,10 +6029,10 @@
 </span></code></pre></div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>main.out: Example
 </span></code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<details class="note">
+<summary>Log file</summary>
 <p>Não deixará de loggar em <code>/var/log/syslog</code> ou <code>/var/log/messages</code>.</p>
-</div>
+</details>
 
 
 

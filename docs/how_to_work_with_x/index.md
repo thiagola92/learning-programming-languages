@@ -45,7 +45,7 @@ Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas 
     }
     ```
 
-!!! warning
+??? warning "Error handling"
 
     Tratamento de erros é importante e não deve ser ignorado no dia-a-dia.  
 
@@ -55,12 +55,12 @@ Seção que fala sobre duas ações clássicas de se aprender em programação:
 - **Print**: Escrever um conteúdo na saída padrão (`stdout`)
 - **Scan**: Ler um conteúdo na entrada padrão (`stdin`)
 
-!!! note
+??? note "Formatted, Raw, IO"
 
     É bom saber que tudo lido e escrito são bytes, apenas dentro do seu programa que possuem um tipo específico.  
 
     - Formatted
-        - **Print**: Transformamos uma devida variável em bytes para que ela seja exibida na tela
+        - **Print**: Transformamos uma devida variável em bytes que melhor represente ela na tela
         - **Scan**: Definimos o tipo de variável a qual queremos que os bytes consumidos sejam convertidos
     - Raw
         - **Print & Scan**: Não existe nenhuma conversão, estamos lendo e escrevendo bytes
@@ -73,9 +73,9 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
 - **Read**: Ler o conteúdo de um arquivo
 - **Write**: Escrever conteúdo em um arquivo
 
-!!! note
+??? note "`stdin`, `stdout`"
 
-    A saída e entrada padrão são arquivos, então podemos utilizar estes métodos para escrever na saída/entrada padrão.  
+    Ambos `stdin` e `stdout` são arquivos, então poderiamos utilizar estes métodos para escrever na saída/entrada padrão.  
 
 ??? info "File Permissions"
 
@@ -225,13 +225,13 @@ Note que não existe regra de onde registrar estes eventos, nós poderiamos:
 
 E poderiamos fazer em múltiplos deles ao mesmo tempo.  
 
-??? info "Stdin, Stdout, Stderr"
+??? info "`stdin`, `stdout`, `stderr`"
 
     Por padrão programas possuem 3 fluxo de dados:
 
-    - **stdin**: Entrada padrão
-    - **stdout**: Saída padrão
-    - **stderr**: Saída de erro padrão
+    - `stdin`: Entrada padrão
+    - `stdout`: Saída padrão
+    - `stderr`: Saída de erro padrão
 
     Em [Print & Scan](#print-scan) vimos comandos para interagir com `stdin` e `stdout`, porém logs são conhecidos por interagirem com `stderr`.  
 
@@ -273,7 +273,7 @@ E poderiamos fazer em múltiplos deles ao mesmo tempo.
     
     Consequentemente o `stderr` acaba sendo bom para escrever mensagens de logs, pois essa mensagens acabam não sendo enviadas para o próximo fluxo do programas.  
     
-    !!! example
+    ??? example "Chaining `stdout` and `stdin`"
 
         [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) faz o link entre `stdout` de um programa com `stdin` de outro utilizando o operador `|`:  
 
