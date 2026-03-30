@@ -1,7 +1,6 @@
 # Zig
 
 ## Bool
-
 ```zig
 const print = @import("std").debug.print;
 

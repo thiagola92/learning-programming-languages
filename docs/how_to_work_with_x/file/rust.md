@@ -1,7 +1,6 @@
 # Rust
 
 ## Read File
-
 === "All Content"
 
     ```rust
@@ -51,7 +50,6 @@
     ```
 
 ## Write to File
-
 === "All Content"
 
     ```rust

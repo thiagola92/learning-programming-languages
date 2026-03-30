@@ -5,7 +5,6 @@
     Está linguagem não inclue uma biblioteca de log oficial.  
 
 ## Syslog
-
 Em sistemas operacionais que seguem os padrões POSIX, existe uma biblioteca para mandar mensagens ao logger do seus sistema operacional: [`syslog.h`](https://en.wikipedia.org/wiki/C_POSIX_library).  
 
 !!! warning
@@ -13,7 +12,6 @@ Em sistemas operacionais que seguem os padrões POSIX, existe uma biblioteca par
     Estes logs ficaram misturados com logs de outros programas que usarem está biblioteca.  
 
 ### File
-
 ```c
 #include <stdio.h>
 #include <sys/syslog.h>

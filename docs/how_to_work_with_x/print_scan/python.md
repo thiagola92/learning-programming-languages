@@ -1,7 +1,6 @@
 # Python
 
 ## Print
-
 === "Formatted"
 
     ```python
@@ -30,7 +29,6 @@
     ```
 
 ## Scan
-
 === "Raw"
 
     ```python

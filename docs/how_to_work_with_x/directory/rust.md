@@ -1,7 +1,6 @@
 # Rust
 
 ## Create directory
-
 ```rust
 use std::fs::create_dir;
 
@@ -11,7 +10,6 @@ fn main() {
 ```
 
 ## List files
-
 === "Stream Content"
 
     ```rust
@@ -27,7 +25,6 @@ fn main() {
     ```
 
 ## Remove directory
-
 ```rust
 use std::fs::remove_dir;
 

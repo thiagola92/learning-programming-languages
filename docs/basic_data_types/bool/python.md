@@ -1,7 +1,6 @@
 # Python
 
 ## Bool
-
 ```python
 a = True
 b = False

@@ -1,7 +1,6 @@
 # C
 
 ## Struct
-
 ```c
 #include <stdio.h>
 

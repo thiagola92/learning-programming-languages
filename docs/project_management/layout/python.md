@@ -1,5 +1,4 @@
 # Python
-
 ??? abstract "Not Imposed"
 
     A linguagem deixa importar código de arquivos sem ligar para a localização deles. Por exemplo:
@@ -12,7 +11,6 @@
     ```
 
 ## src layout
-
 Os códigos do seu projeto deve ficar dentro de um diretório reservado para o pacote/projeto, que por sua vez deve ficar dentro do diretório `src`.  
     
 ```
@@ -76,7 +74,6 @@ import my_package2
 ```
 
 ## flat layout
-
 Os códigos do seu projeto deve ficar dentro de um diretório reservado para o pacote/projeto.  
     
 ```

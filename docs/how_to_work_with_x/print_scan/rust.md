@@ -1,7 +1,6 @@
 # Rust
 
 ## Print
-
 === "Formatted"
 
     ```rust
@@ -21,7 +20,6 @@
     ```
 
 ## Scan
-
 === "IO"
 
     ```rust

@@ -1,5 +1,4 @@
 # Python
-
 ??? abstract "Third Party"
 
     Este gerenciador de pacotes não é mantido pelos criadores oficiais da linguagem.
@@ -7,7 +6,6 @@
 A linguagem recomenda a utilização do [Pip](https://pip.pypa.io/en/stable/).  
 
 ## Add with Pip
-
 ```
 pip install <package_name>
 ```
@@ -25,7 +23,6 @@ pip install <package_name>
     ```
 
 ## Add with PDM
-
 ```
 pdm add <package_name>
 ```

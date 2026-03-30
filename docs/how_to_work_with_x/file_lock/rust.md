@@ -1,7 +1,6 @@
 # Go
 
 ## Shared Lock
-
 ```rust
 use std::fs::File;
 
@@ -13,7 +12,6 @@ fn main() {
 ```
 
 ## Exclusive Lock
-
 ```rust
 use std::fs::File;
 

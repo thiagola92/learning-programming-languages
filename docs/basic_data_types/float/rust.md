@@ -1,7 +1,6 @@
 # Rust
 
 ## Float
-
 ```rust
 fn main() {
     let a: f32 = 3.14;

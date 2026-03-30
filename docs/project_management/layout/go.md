@@ -1,5 +1,4 @@
 # Go
-
 ??? abstract "Imposed"
 
     A linguagem apenas aceita importar código de arquivos que seguiram a regra da linguagem. Por exemplo:  
@@ -9,7 +8,6 @@
     > "Apenas em diretórios que tenham o arquivo `.package"  
 
 ## Package
-
 Todos os arquivos relacionados ao mesmo pacote devem ficar na mesma pasta e o pacote principal deve ficar na raiz do projeto.  
 
 ```
@@ -30,7 +28,6 @@ import "https://www.github.com/username/repository"
 ```
 
 ## Subpackages
-
 É normal dividir um projeto grande em subdiretórios. Nesse caso, cada subdiretório é considerado um subpacote.  
 
 ```
@@ -80,7 +77,6 @@ O arquivo `go.mod` apenas existe no pacote principal pois ele define o início d
     ```
 
 ## Private
-
 Diretório `internal` é especial pois a linguagem não permite que outros módulos importem dele.  
 
 ```

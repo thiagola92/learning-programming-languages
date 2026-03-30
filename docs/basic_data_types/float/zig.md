@@ -1,7 +1,6 @@
 # Zig
 
 ## Float
-
 ```zig
 const print = @import("std").debug.print;
 

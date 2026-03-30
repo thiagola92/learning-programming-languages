@@ -1,7 +1,6 @@
 # Rust
 
 ## Compile
-
 === "Compile"
     
     Compila para um executável `main`:  
@@ -11,7 +10,6 @@
     ```
 
 ## Compile with package manager
-
 O package manager da linguagem fornece atalhos para compilar e executar, porém isto envolve o diretório estar configurado para o package manager.  
 
 === "Compile"

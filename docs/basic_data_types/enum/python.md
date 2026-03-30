@@ -1,11 +1,9 @@
 # Python
-
 ??? abstract "Adaptation"
 
     Esta linguagem possui uma adaptação do conceito.
 
 ## Enum
-
 A linguagem utiliza outra classe (`Enum`) para ajudar a reproduzir o comportamento de um enum.  
 
 === "Set"

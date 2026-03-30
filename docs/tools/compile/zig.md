@@ -1,7 +1,6 @@
 # Zig
 
 ## Compile
-
 === "Compile"
     
     Compila para um executável `main`:  

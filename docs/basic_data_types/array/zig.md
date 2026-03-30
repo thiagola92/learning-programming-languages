@@ -1,7 +1,6 @@
 # Zig
 
 ## Array
-
 === "Empty"
 
     ```zig
@@ -42,10 +41,9 @@
     example[2] = 3
     ```
 
-    !!! note
-
-        Essa é a notação mais utilizada pois deixa para o compilador descobrir o **tamanho do array** e o **tipo da variável**.  
-        Dito isto, é possível ser explícito sobre ambos.
+    ??? note "Popular notation"
+    
+        Essa é a notação mais utilizada pois deixa para o compilador descobrir o **tamanho do array** e o **tipo da variável**. Dito isto, é possível ser explícito sobre ambos.
         
         Explícito sobre o tamanho do array:  
 

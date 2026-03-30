@@ -1,5 +1,4 @@
 # Go
-
 ??? abstract "Third Party"
 
     Esta funcionalidade não é mantido pelos criadores oficiais da linguagem.
@@ -9,7 +8,6 @@ Embora a linguagem internamente possua essa [funcionalidade](https://pkg.go.dev/
 Uma alternativa é utilizar o pacote [go-internal](https://pkg.go.dev/github.com/rogpeppe/go-internal) que disponibiliza alguns pacotes internos para o nosso uso.
 
 ## Shared Lock
-
 === "All Content"
 
     ```go
@@ -41,7 +39,6 @@ Uma alternativa é utilizar o pacote [go-internal](https://pkg.go.dev/github.com
     ```
 
 ## Exclusive Lock
-
 === "All Content"
 
     ```go

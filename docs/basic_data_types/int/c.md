@@ -1,7 +1,6 @@
 # C
 
 ## Int
-
 ```c
 #include <stdio.h>
 

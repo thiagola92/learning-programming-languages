@@ -1,11 +1,9 @@
 # Go
-
 ??? abstract "Official"
 
     Esta biblioteca é mantida pelos criadores oficiais da linguagem.
 
 ## File
-
 ```go
 package main
 
@@ -29,7 +27,6 @@ func main() {
 ```
 
 ## Stderr
-
 ```go
 package main
 

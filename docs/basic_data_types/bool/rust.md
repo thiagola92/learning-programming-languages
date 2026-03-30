@@ -1,7 +1,6 @@
 # Rust
 
 ## Bool
-
 ```rust
 fn main() {
     let a = true;

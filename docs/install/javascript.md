@@ -1,5 +1,4 @@
 # JavaScript
-
 Por ser uma linguagem de script originalmente desenvolvida para navegadores, cada navegador implementava seu próprio interpretador para a linguagem ([V8 do Chrome](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)), [SpiderMonkey do Firefox](https://en.wikipedia.org/wiki/SpiderMonkey), [WebKit do Safari](https://en.wikipedia.org/wiki/WebKit)).  
 
 Está parte do código dos navegadores responsável por executar a linguagem é conhecida como [JavaScript Engine](https://en.wikipedia.org/wiki/JavaScript_engine).  
@@ -19,7 +18,6 @@ A linguagem em si conta que você está executando o código no navegador mas es
 **TLDR**: Não existe instalador oficial da linguagem. Utilize ela no navegador ou instale um runtime para executa-la localmente.  
 
 ## Node.js
-
 === "Oficial"
 
     Oficialmente a recomendação é instalar Node.js pelo [version manager](https://nodejs.org/en/download/package-manager) da linguagem.  
@@ -37,7 +35,6 @@ A linguagem em si conta que você está executando o código no navegador mas es
     ```
 
 ## Deno
-
 === "Oficial"
 
     ```
@@ -45,7 +42,6 @@ A linguagem em si conta que você está executando o código no navegador mas es
     ```
 
 ## Bun
-
 === "Oficial"
 
     ```

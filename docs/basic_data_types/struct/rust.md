@@ -1,7 +1,6 @@
 # Rust
 
 ## Struct
-
 ```rust
 struct Example {
     field1: i32,

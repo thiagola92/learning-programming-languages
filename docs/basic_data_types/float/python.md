@@ -1,7 +1,6 @@
 # Python
 
 ## Float
-
 ```python
 a = 3.14
 

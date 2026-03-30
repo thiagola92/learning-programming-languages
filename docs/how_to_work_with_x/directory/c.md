@@ -1,7 +1,6 @@
 # C
 
 ## Create directory
-
 ```c
 #include <sys/stat.h>
 
@@ -11,7 +10,6 @@ int main() {
 ```
 
 ## List files
-
 === "Stream Content"
 
     ```c
@@ -32,7 +30,6 @@ int main() {
     ```
 
 ## Remove directory
-
 ```c
 #include <unistd.h>
 

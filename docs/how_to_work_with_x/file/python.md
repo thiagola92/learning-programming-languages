@@ -1,7 +1,6 @@
 # Python
 
 ## Read File
-
 === "All Content"
 
     ```python
@@ -41,7 +40,6 @@
     ```
 
 ## Write to File
-
 === "All Content"
 
     ```python

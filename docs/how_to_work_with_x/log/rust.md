@@ -1,5 +1,4 @@
 # Rust
-
 ??? abstract "Official"
 
     Esta biblioteca é mantida pelos criadores oficiais da linguagem.
@@ -9,7 +8,6 @@ A biblioteca segue parcialmente o padrão [syslog](https://en.wikipedia.org/wiki
 A biblioteca é uma [facade](https://en.wikipedia.org/wiki/Facade_pattern), ou seja, apenas providência o front-end do logging. É necessária a implementação concreta do logger.  
 
 ## File
-
 ```rust
 use log::{info, Log};
 use std::{fs::OpenOptions, io::Write};
@@ -54,7 +52,6 @@ INFO - Example
     Uma recomendação seria abrir apenas uma vez e sempre ir adicionando texto ao arquivo.  
 
 ## Stderr
-
 ```rust
 use log::info;
 

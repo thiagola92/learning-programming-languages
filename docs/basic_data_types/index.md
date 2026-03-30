@@ -1,25 +1,21 @@
 # Index
 
 ## Bool
-
 *(Boolean)*
 
 Representação de verdadeiro e falso, porém por não ser possível armazenar 1 bit sozinho, ele ocupa sempre o espaço mínimo de 1 byte.  
 
 ## Int
-
 *(Integer)*
 
 Representação de um [número inteiro](https://pt.wikipedia.org/wiki/N%C3%BAmero_inteiro), quantidade de números que é possível representar depende da quantidade de bytes utilizados.  
 
 ## Float
-
 *(Floating Point)*
 
 Representação de um [número racional](https://pt.wikipedia.org/wiki/N%C3%BAmero_racional), quantidade de números que é possível representar depende da quantidade de bytes utilizados.  
 
 ## Char
-
 *(Character)*
 
 A idéia de um caracter é representar um [grafema](https://www.dicio.com.br/grafema/) (unidade mínima de um sistema de escrita). O que não é fácil quando lidando com diversos idiomas.  
@@ -37,7 +33,6 @@ Recomendação de video: [https://www.youtube.com/watch?v=ut74oHojxqo](https://w
     Tivemos 6 bits, 5 bits, 4 bits... Até o famoso padrão de encode ASCII começou como 7 bits e foi adaptado para 8 bits.  
 
 ## Enum
-
 *(Enumerated)*
 
 Maneira de dar nomes a valores constantes para facilitar a escrita e entendimento do código. Durante a compilação estes nomes são convertidos para os devidos valores.  
@@ -51,7 +46,6 @@ enum {
 ```
 
 ## Array
-
 Coleção de dados que possuem o mesmo tipo e são armazenados sequêncialmente na memória.  
 
 É possível caminhar pelos valores do array dando um "passo" na memória. O tamanho do passo é relativo ao tipo do dado armazenado, ou seja, um array de inteiros de 4 bytes fará com que o passo passe 4 endereços de memória.  
@@ -67,7 +61,6 @@ array {
 ```
 
 ## Union
-
 Permite utilizar um espaço de memória para armazenar um entre vários tipos de dados.  
 
 O tamanho do espaço de memória terá que ser o maior dentro dos tipos.  
@@ -80,7 +73,7 @@ union {
 }
 ```
 
-!!! warning
+??? warning "Union usage"
 
     É importante notar que é perigoso não saber o tipo da variável naquele exato momento, pois tipos diferentes de variáveis possuem organização diferente na memória e operam de maneira diferente no processador.  
     
@@ -117,7 +110,6 @@ union {
     [Tagged union](https://en.wikipedia.org/wiki/Tagged_union) é uma estrutura de dados utilizada para evitar este tipo de problema.  
 
 ## Struct
-
 *(Record)*
 
 É um tipo de dado composto por outros tipos de dados.  
@@ -139,9 +131,9 @@ struct {
     Algumas linguagens conseguem reproduzir parte do comportamento de classes:  
 
     ??? example "C"
-
+    
         === "Inheritance"
-
+        
             [Type punning](https://en.wikipedia.org/wiki/Type_punning) é uma técnica que aproveita do fato que structs podem ser simples e apenas armazenarem os dados em sequência.  
 
             ```c

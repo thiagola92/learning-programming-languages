@@ -1,7 +1,6 @@
 # Go
 
 ## Create directory
-
 ```go
 package main
 
@@ -13,7 +12,6 @@ func main() {
 ```
 
 ## List files
-
 === "All Content"
 
     ```go
@@ -69,7 +67,6 @@ func main() {
     ```
 
 ## Remove directory
-
 ```go
 package main
 

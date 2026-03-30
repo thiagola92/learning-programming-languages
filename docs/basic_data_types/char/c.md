@@ -1,7 +1,6 @@
 # C
 
 ## Bool
-
 ```c
 #include <stdio.h>
 

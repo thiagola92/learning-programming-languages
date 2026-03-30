@@ -1,7 +1,6 @@
 # Python
 
 ## Execute
-
 === "Execute"
     
     Executa o código:  

@@ -1,7 +1,6 @@
 # C
 
 ## Union
-
 ```c
 #include <stdio.h>
 

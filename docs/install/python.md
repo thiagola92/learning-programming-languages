@@ -1,5 +1,4 @@
 # Python
-
 === "Ubuntu"
 
 Incluso no sistema operacional.  

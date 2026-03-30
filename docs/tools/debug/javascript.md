@@ -1,5 +1,4 @@
 # JavaScript
-
 ??? abstract "Third Party"
 
     Este debugger não é mantido pelos criadores oficiais da linguagem.
@@ -7,7 +6,6 @@
 Essa linguagem foi criada para ser executada no navegador, isto levou a diversos navegadores construiram seus próprios debuggers. Utilizando runtimes podemos linkar com os navegadores para eles debugarem o código.  
 
 ## Debug with Node.js
-
 === "Browser"
 
     ```
@@ -21,7 +19,6 @@ Essa linguagem foi criada para ser executada no navegador, isto levou a diversos
     ```
 
 ## Debug with Deno
-
 === "Browser"
 
     ```
@@ -29,7 +26,6 @@ Essa linguagem foi criada para ser executada no navegador, isto levou a diversos
     ```
 
 ## Debug with Bun
-
 === "Browser"
 
     ```

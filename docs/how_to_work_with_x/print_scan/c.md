@@ -1,7 +1,6 @@
 # C
 
 ## Print
-
 === "Formatted"
 
     ```c
@@ -13,7 +12,6 @@
     ```
 
 ## Scan
-
 === "Formatted"
 
     ```c

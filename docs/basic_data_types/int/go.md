@@ -1,7 +1,6 @@
 # Go
 
 ## Int
-
 ```go
 package main
 

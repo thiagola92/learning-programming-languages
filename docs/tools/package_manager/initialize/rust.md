@@ -1,11 +1,9 @@
 # Rust
-
 ??? abstract "Official"
 
     Este gerenciador de pacotes é mantido pelos criadores oficiais da linguagem.
 
 ## Initialize
-
 Caso não tenha criado o diretório do projeto, é possível cria-lo e inicializa-lo com o comando:  
 
 ```

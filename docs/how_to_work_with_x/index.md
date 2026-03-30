@@ -1,5 +1,4 @@
 # Index
-
 A ideia é reunir exemplos **básicos** de como trabalhar com um conhecimento genérico computação.  
 
 Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas encerrar o programa. Exemplo em Go:  
@@ -51,7 +50,6 @@ Iremos ignorar tratamentos de erros pois, no contexto de exemplos, seria apenas 
     Tratamento de erros é importante e não deve ser ignorado no dia-a-dia.  
 
 ## Print & Scan
-
 Seção que fala sobre duas ações clássicas de se aprender em programação:  
 
 - **Print**: Escrever um conteúdo na saída padrão (`stdout`)
@@ -70,7 +68,6 @@ Seção que fala sobre duas ações clássicas de se aprender em programação:
         - **Print & Scan**: Mesmo que Raw porém utilizando `stdin`/`stdout` diretamente
 
 ## File
-
 Seção que fala sobre as duas ações mais essenciais para arquivos:  
 
 - **Read**: Ler o conteúdo de um arquivo
@@ -155,7 +152,6 @@ Seção que fala sobre as duas ações mais essenciais para arquivos:
         000 --> 0  
 
 ## Directory
-
 Seção que fala sobre as ações mais comuns em um diretório:  
 
 - **Create**: Criar um diretório
@@ -202,14 +198,12 @@ Seção que fala sobre as ações mais comuns em um diretório:
 
 
 ## Memory
-
 Seção que fala sobre como a linguagem se comporta em relação a armazenamento de dados na memória RAM ([heap](https://en.wikipedia.org/wiki/Memory_management#HEAP)).  
 
 - Alocar
 - Desalocar
 
 ## Process
-
 - Fork
 - Exec
 - Spawn / Clone?
@@ -217,12 +211,10 @@ Seção que fala sobre como a linguagem se comporta em relação a armazenamento
 ## Thread
 
 ## Network
-
 - UDP
 - TCP
 
 ## Log
-
 Seção que fala sobre registrar eventos do seu programa (logs).  
 
 Note que não existe regra de onde registrar estes eventos, nós poderiamos:
@@ -290,7 +282,6 @@ E poderiamos fazer em múltiplos deles ao mesmo tempo.
         ```  
 
 ## File Lock
-
 Seção que fala sobre travas para arquivos.  
 
 Basicamente existem dois tipos de travas:  

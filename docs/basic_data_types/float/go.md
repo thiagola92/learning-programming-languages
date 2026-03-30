@@ -1,7 +1,6 @@
 # Go
 
 ## Float
-
 ```go
 package main
 

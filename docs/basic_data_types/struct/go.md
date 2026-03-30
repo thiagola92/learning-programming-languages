@@ -1,7 +1,6 @@
 # Go
 
 ## Struct
-
 ```go
 package main
 

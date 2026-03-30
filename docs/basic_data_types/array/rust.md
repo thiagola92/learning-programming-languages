@@ -1,10 +1,9 @@
 # Rust
 
 ## Array
-
 === "Empty"
 
-    Está linguagem não permite o uso sem antes ter sido inicializado
+    Está linguagem não permite o uso sem antes ter sido inicializado.
 
     ```rust
     fn main() {
@@ -15,10 +14,6 @@
         // print!("example[2] = {:?}\n", example[2]);
     }
     ```
-
-    !!! tip
-    
-        É possível inicializar todos com um mesmo valor para simular o comportamento de outras linguagens (inicializar com zeros).  
 
 === "Set 1"
 

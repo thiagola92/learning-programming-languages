@@ -1,11 +1,9 @@
 # JavaScript
-
 ??? abstract "Third Party"
 
     Este compilador não é mantido pelos criadores oficiais da linguagem.
 
 ## Execute with Node.js
-
 === "Compile & Execute"
     
     Executa o código:  
@@ -15,7 +13,6 @@
     ```
 
 ## Execute with Deno
-
 === "Compile"
     
     Compila para um executável com o nome do diretório: 
@@ -33,7 +30,6 @@
     ```
 
 ## Execute with Bun
-
 === "Compile"
     
     Compila para um executável `main`: 

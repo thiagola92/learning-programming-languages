@@ -1,7 +1,6 @@
 # Python
 
 ## Create directory
-
 === "1"
 
     ```python
@@ -19,7 +18,6 @@
     ```
 
 ## List files
-
 === "All Content"
 
     ```python
@@ -43,7 +41,6 @@
     ```
 
 ## Remove directory
-
 === "1"
 
     ```python

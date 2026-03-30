@@ -1,7 +1,6 @@
 # Zig
 
 ## Union
-
 Apenas o campo inicializado pode ser utilizado. Para trocar o campo é preciso inicializar novamente.  
 
 ```zig
@@ -31,7 +30,6 @@ example.field2 = 5.5
     Só é possível identificar o campo utilizado quando usando tagged unions.  
 
 ## Tagged Union
-
 Passando um enum durante a criação de uma union, fará com que os campos do enum sejam utilizados como tag para a union.  
 
 ```zig

@@ -1,11 +1,9 @@
 # Go
-
 ??? abstract "Official"
 
     Este gerenciador de pacotes é mantido pelos criadores oficiais da linguagem.
 
 ## Initialize
-
 ```
 go mod init <path>
 ```

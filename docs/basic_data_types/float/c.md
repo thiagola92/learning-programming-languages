@@ -1,7 +1,6 @@
 # C
 
 ## Float
-
 ```c
 #include <stdio.h>
 

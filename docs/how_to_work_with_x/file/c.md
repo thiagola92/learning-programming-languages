@@ -1,7 +1,6 @@
 # C
 
 ## Read File
-
 === "Stream Content"
 
     ```C
@@ -17,7 +16,6 @@
     ```
 
 ## Write to File
-
 === "Stream Content"
 
     ```c

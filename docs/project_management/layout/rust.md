@@ -1,5 +1,4 @@
 # Rust
-
 ??? abstract "Imposed"
 
     A linguagem apenas aceita importar código de arquivos que seguiram a regra da linguagem. Por exemplo:  
@@ -11,7 +10,6 @@
 A convenção é deixar os códigos do seu projeto dentro do diretório `src`, porém isto é opcional.  
 
 ## Modules
-
 Todos os módulos utilizados pelo arquivo contendo a função `main()` precisam estar no mesmo level que ele.  
 
 ```
@@ -26,7 +24,6 @@ Todos os módulos utilizados pelo arquivo contendo a função `main()` precisam 
 ```
 
 ## Submodules
-
 Módulos podem possuir outros módulos, porém eles vão precisar estar localizados em um diretório com o nome do módulo pai.  
 
 ```

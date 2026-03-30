@@ -1,7 +1,6 @@
 # Index
 
 ## Compile
-
 Seção que fala sobre compilar/executar o código da linguagem.  
 
 Essa seção inclui linguagens que compilam, interpretam ou ambos. Normalmente:  
@@ -22,13 +21,11 @@ Então não se apegue a detalhes, o foco é executar a linguagem.
     ```
 
 ## Format
-
 Seção que fala sobre o formatador da linguagem.  
 
 Formatadores alteram o código para seguir certos padrões de escrita, porém sem alterar o comportamento quando executado.  
 
 ## Debug
-
 Seção que fala sobre o debugger da linguagem.  
 
 Debuggers permitem os programadores acompanharem a execução de um código a fim de análisar ou descobrir erros.  
@@ -41,7 +38,6 @@ Debuggers permitem os programadores acompanharem a execução de um código a fi
     *[LLDB]: Low-Level Debugger
 
 ## LSP
-
 Seção que fala sobre LSP (languagem server protocol) da linguagem.  
 
 Diferente de outros programas como formatador e linter, que são executados ao se ter a necessidade deles, LSP mantém um server localmente esperando por código para se começar uma análise.  
@@ -56,7 +52,6 @@ O resultado desta análise pode variar de acordo com o LSP, eles podem fornecer 
 - ...
 
 ## Package Manager
-
 Seção que fala sobre o gerenciador de pacotes da linguagem.  
 
 Gerenciadores de pacotes mantém uma lista de módulos/pacotes/bibliotecas a serem importados para o seu projeto.  
@@ -70,7 +65,6 @@ Gerenciadores de pacotes mantém uma lista de módulos/pacotes/bibliotecas a ser
     - **Library**: Conjunto de pacotes e módulos
 
 ## Version Manager
-
 Seção que fala sobre gerenciador de versão para a linguagem.  
 
 Gerenciadores de versão permitem a alteração da versão da linguagem dentro da máquina do desenvolvedor.  

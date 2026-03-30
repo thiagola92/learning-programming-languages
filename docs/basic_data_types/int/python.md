@@ -1,7 +1,6 @@
 # Python
 
 ## Int
-
 ```python
 a = 10
 

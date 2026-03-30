@@ -1,7 +1,6 @@
 # Rust
 
 ## Union
-
 ```rust
 union Example {
     field1: i32,

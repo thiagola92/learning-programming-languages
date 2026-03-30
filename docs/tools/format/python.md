@@ -1,5 +1,4 @@
 # Python
-
 ??? abstract "Third Party"
 
     Este formatador não é mantido pelos criadores oficiais da linguagem.

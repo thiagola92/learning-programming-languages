@@ -1,7 +1,6 @@
 # Go
 
 ## Read File
-
 === "All Content"
 
     ```go
@@ -31,7 +30,6 @@
     ```
 
 ## Write to File
-
 === "All Content"
 
     ```go

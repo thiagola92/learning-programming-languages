@@ -1,7 +1,6 @@
 # Go
 
 ## Array
-
 === "Empty"
 
     ```go

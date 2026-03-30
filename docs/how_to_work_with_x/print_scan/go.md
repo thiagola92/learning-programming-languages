@@ -1,7 +1,6 @@
 # Go
 
 ## Print
-
 === "Formatted"
 
     ```go
@@ -39,7 +38,6 @@
     ```
 
 ## Scan
-
 === "Formatted"
 
     ```go

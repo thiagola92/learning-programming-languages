@@ -1,7 +1,6 @@
 # Go
 
 ## Compile
-
 === "Compile"
     
     Compila para um executável `main`:  
@@ -21,7 +20,6 @@
     Nenhum binário é gerado.  
 
 ## Compile when you have multiples files
-
 Parecido com C, onde é necessário passar os arquivos a serem compilados.  
 
 === "Compile"
@@ -51,7 +49,6 @@ Diferente de C, os arquivos a serem compilados (desta maneira) precisam estar no
 ```
 
 ## Compile when you have files in subdirectories
-
 !!! note
     
     Está parte conta que você tenha alguns conhecimentos de assuntos futuros.

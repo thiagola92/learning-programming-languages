@@ -1,11 +1,9 @@
 # Go
-
 ??? abstract "Official"
 
     Este gerenciador de pacotes é mantido pelos criadores oficiais da linguagem.
 
 ## Add
-
 Declare o importe do pacote a ser utilizado no seu código.  
 
 ```go
@@ -19,7 +17,6 @@ go mod tidy
 ```
 
 ## Alternative
-
 Adiciona a dependência.  
 
 ```

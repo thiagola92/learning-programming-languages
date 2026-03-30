@@ -1,7 +1,6 @@
 # Zig
 
 ## Enum
-
 === "Auto 1"
 
     ```zig

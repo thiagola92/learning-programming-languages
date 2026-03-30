@@ -1,11 +1,9 @@
 # Zig
-
 ??? abstract "Official"
 
     Este formatador é mantido pelos criadores oficiais da linguagem.
 
 ## Format
-
 Caso o argumento seja um arquivo, apenas aquele arquivo será formatado.
 
 ```

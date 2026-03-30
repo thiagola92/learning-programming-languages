@@ -6,53 +6,57 @@ Idéia parecida com [Learn X in Y minutes](https://learnxinyminutes.com/).
 
 ## Notes
 
-Caso não esteja citando o sistema operacional, assuma que possa ser **Ubuntu**/**Fedora**.  
-Caso não esteja citando o shell, assuma que é **bash**.  
-Certas palavras podem vir em inglês por serem mais familiares para **mim**.  
+- Caso não esteja citando o sistema operacional, assuma que é **Ubuntu**/**Fedora**.  
+- Caso não esteja citando o shell, assuma que é **bash**.  
+- Certas palavras podem vir em inglês por serem mais familiares para **mim**.  
+    - Costumo botar título/seção em inglês.
 
-## [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)  
+## [Admonitions](https://zensical.org/docs/authoring/admonitions/)  
+Sempre encolhidas para não prolongar o texto principal.  
 
-!!! note
-    Usado para falar de curiosidades. Exemplo:  
+??? note "Used to talk about curiosities"
 
     > Binário irá se encontrar na pasta `~/.local/bin`.  
 
-!!! abstract
-    Usado no início da página para avisar da qualidade do conteúdo dela. Exemplo:  
+??? abstract "Used at start of the page, to hold details about the page"
 
     > Adaptação da linguagem para este assunto.  
 
-    **Obs**: Sempre encolhido (e com título) pois se repete muito.  
-
-!!! info
-    Usado para ensinar outro conceito. Exemplo:  
+??? info "Used to teach about another subject"
 
     > Endianness se trata da ordem em que os bytes são ordenados (na máquina ou durante uma transmissão).  
 
-    **Obs**: Sempre encolhido (e com título) pois é conhecimento opcional.  
-
-!!! tip
-    Usado para contar algo que pode ajudar se for feito. Exemplo:  
+??? tip "Used to give an advice"
 
     > Version managers ajudam caso vá trabalhar em diversos projetos em versões de linguagens diferentes.  
 
-!!! warning
-    Usado para avisar de algo inesperado que pode ocorrer. Exemplo:  
+??? warning "Used to warn about problems that can happen if not careful"
 
     > Unions podem causar diversos problemas se não tomar cuidado.  
 
-!!! danger
-    Usado para avisar de algo perigoso que pode ocorrer. Exemplo:  
+??? danger "Used to tell about problems that can happen"
 
     > Máquina pode parar de funcionar se instalar desta maneira.  
 
-!!! example
-    Usado para demonstrar um exemplo dentro de uma admonitions. Exemplo:  
+??? example "Used to show an example inside another admonition"
 
-    > Podemos simular classes desta maneira:  
-    > 
-    > ```C
-    > // Example...
-    > ```
+    Como o site é 99% exemplos, não faz sentido utilizar em todos exemplos.  
 
-    **Obs**: Sempre encolhido (e com título) pois é leitura opcional.  
+### How to use
+
+```markdown
+??? warn "Admonitions"
+
+    A linha vazia acima é obrigatória!  
+    O editor de texto não estava reconhecendo a sintáxe nos blocos de código sem ela.
+```
+
+## [Content Tabs](https://zensical.org/docs/authoring/content-tabs/)
+
+### How to use
+```markdown
+=== Tab title
+
+    A linha vazia acima é obrigatória!  
+    O editor de texto não estava reconhecendo a sintáxe nos blocos de código sem ela.
+```

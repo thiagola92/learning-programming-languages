@@ -1,7 +1,6 @@
 # Rust
 
 ## Enum
-
 === "Auto"
 
     ```rust

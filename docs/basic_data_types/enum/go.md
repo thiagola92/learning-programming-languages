@@ -1,11 +1,9 @@
 # Go
-
 ??? abstract "Adaptation"
 
     Esta linguagem possui uma adaptação do conceito.
 
 ## Enum
-
 Enums são apenas nomes convertidos para número durante a compilação e podem ser fácilmente reproduzidos por definindo constantes com os valores desejados.  
 
 === "Set"
@@ -34,9 +32,11 @@ Enums são apenas nomes convertidos para número durante a compilação e podem 
     C = 2
     ```
 
-    !!! warning
+    ??? warning "It's not an Enum"
 
-        Ainda é uma declaração de constante e não uma definição de enum! Se você deixar de declarar os valores, ele irá utilizar o último valor para preencher os seguintes.  
+        Ainda é uma declaração de constante e não uma definição de enum!  
+
+        Se você deixar de declarar os valores, a linguagem irá utilizar o último valor para preencher as variáveis seguintes (pois é o comportamento desta linguagem quando declarando múltiplas variáveis em conjunto).  
 
         ```go
         const (
@@ -72,7 +72,7 @@ Enums são apenas nomes convertidos para número durante a compilação e podem 
     C = 2
     ```
 
-    !!! note
+    ??? note "When `iota` value reset?"
 
         O valor de `iota` é resetado para zero sempre que a palavra reservada `const` aparece.  
 
@@ -93,7 +93,7 @@ Enums são apenas nomes convertidos para número durante a compilação e podem 
         D = 0
         ```
     
-    !!! warning
+    ??? warning "The `iota` value keep incrementing"
 
         O valor de `iota` cresce mesmo sem ter sido utilizado naquela delcaração.  
 

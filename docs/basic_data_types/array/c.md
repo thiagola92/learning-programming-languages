@@ -1,7 +1,6 @@
 # C
 
 ## Array
-
 === "Empty"
 
     ```c
@@ -62,8 +61,8 @@
     example[2] = 0
     ```
 
-    !!! warning
-
+    ??? warning "Array size"
+    
         O array precisa ter espaço para receber todos os valores.  
 
         O seguinte irá gerar erro:  

@@ -1,7 +1,6 @@
 # Rust
 
 ## Int
-
 ```rust
 fn main() {
     let a: i8 = 10;

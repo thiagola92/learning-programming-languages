@@ -1,7 +1,6 @@
 # Zig
 
 ## Int
-
 ```zig
 const print = @import("std").debug.print;
 

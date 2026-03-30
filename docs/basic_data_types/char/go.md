@@ -1,7 +1,6 @@
 # Go
 
 ## Bool
-
 ```go
 package main
 

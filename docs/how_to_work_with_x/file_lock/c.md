@@ -3,7 +3,6 @@
 ## Shared Lock
 
 ### flock
-
 ```c
 #include <sys/file.h>
 
@@ -16,7 +15,6 @@ int main() {
 ```
 
 ### fcntl "Advisory record locking"
-
 ```c
 #include <sys/file.h>
 
@@ -37,7 +35,6 @@ int main() {
 ```
 
 ### fcntl "Open file description locks (non-POSIX)"
-
 ```c title="WIP"
 //
 ```
@@ -45,7 +42,6 @@ int main() {
 ## Exclusive Lock
 
 ### flock
-
 ```c
 #include <sys/file.h>
 
@@ -58,7 +54,6 @@ int main() {
 ```
 
 ### lockf
-
 ```c
 #include <sys/file.h>
 
@@ -71,7 +66,6 @@ int main() {
 ```
 
 ### fcntl "Advisory record locking"
-
 ```c
 #include <sys/file.h>
 
@@ -92,7 +86,6 @@ int main() {
 ```
 
 ### fcntl "Open file description locks (non-POSIX)"
-
 ```c title="WIP"
 //
 ```
