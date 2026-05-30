@@ -1,4 +1,4 @@
-# Go
+# Rust
 
 ## Shared Lock
 ```rust
