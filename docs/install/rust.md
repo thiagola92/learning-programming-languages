@@ -1,5 +1,5 @@
 # Rust
-=== "Oficial"
+=== "Official"
     
     A linha seguinte baixa o script de instalação e o executa:  
     

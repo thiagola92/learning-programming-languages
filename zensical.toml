@@ -71,6 +71,7 @@ nav = [
       "tools/format/zig.md",
     ]},
     { "Debug" = [
+      "tools/debug/c.md",
       "tools/debug/go.md",
       "tools/debug/javascript.md",
       "tools/debug/python.md",

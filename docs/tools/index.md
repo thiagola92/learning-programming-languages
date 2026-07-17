@@ -32,7 +32,7 @@ Debuggers permitem os programadores acompanharem a execução de um código a fi
 
 ??? note "Reuse debuggers"
 
-    Nem todas as linguagens possuem um debugger próprio, algumas recomendam utilizar debuggers já existentes ou criados pela comunidade. Por exemplo, é possível usar [GDB](https://en.wikipedia.org/wiki/GNU_Debugger) e [LLDB](https://en.wikipedia.org/wiki/LLDB_(debugger)) com a linguagem Rust.  
+    Nem todas as linguagens possuem um debugger próprio, algumas recomendam utilizar debuggers já existentes ou criados pela comunidade. Por exemplo, é possível usar [GDB](https://en.wikipedia.org/wiki/GNU_Debugger) e [LLDB](https://en.wikipedia.org/wiki/LLDB_(debugger)) com a linguagem Rust e Zig.  
     
     *[GDB]: GNU Debugger
     *[LLDB]: Low-Level Debugger
